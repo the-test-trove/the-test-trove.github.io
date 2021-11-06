@@ -7,8 +7,8 @@ export default function PageBanner() {
             <div className="pagebanner-1">
                 <div className="extra-container ">
                     <div className="pagebanner-1__tittle ">
-                        <h1 class="pagebanner-1__tittle__webdesign schedule-tittle-eff">Web Design</h1>
-                        <h1 class="pagebanner-1__tittle__conference schedule-tittle-eff2">Conference 2019</h1>
+                        <h1 class="pagebanner-1__tittle__webdesign schedule-tittle-eff">Test Trove Conference</h1>
+                        <h1 class="pagebanner-1__tittle__conference schedule-tittle-eff2">Q4 2021</h1>
 
                     </div>
                 </div>

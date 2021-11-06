@@ -1,20 +1,12 @@
 import React from 'react'
-
-import Sponsor1 from '../../assets/images/uploads/sponsor/sponsor1.png'
-
-const sponsors = [
-    {   
-        image: Sponsor1,
-        altText: 'sponsor1',
-    },
-]
+import { sponsors } from '../Constants/Constants';
 
 export default function Sponsors() {
     return (
         <section>
             <div className="extra-container">
                 <div className="sponsor__tittle">
-                    <h1>Our Sponsor</h1>
+                    <h1>Our Sponsors</h1>
                 </div>
                 <div className="sponsor">
                    {sponsors.map((sponsor) => {

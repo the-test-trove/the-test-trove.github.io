@@ -1,7 +1,4 @@
 /* Slider */
-body{
-    cursor: url('../../images/t3con-cursor.svg'), auto;
-}
 .slick-slider
 {
     position: relative;

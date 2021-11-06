@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import { socials, footerMenu} from '../Constants/Constants'
+
 
 export default function Footer() {
     return (
@@ -9,20 +11,23 @@ export default function Footer() {
 
             <div className="container">
                 <div className="footer ">
-                    <a class="footer__logo" href="index.html"><img class="footer-move-up" src="assets/images/logo.png" alt="logo" /></a>
+                    <a class="footer__logo" href="index.html"><img class="footer-move-up" src="assets/images/T3.png" alt="logo" /></a>
                     <div className="footer__site-text">
-                        <p class="footer-move-up">Web Design Conference 2019.</p>
-                        <p class="footer-move-up">International conference for UX/UI designers</p>
+                        <p class="footer-move-up" style={{fontSize: '20px'}} ><strong>The Test Trove Conference 2021</strong></p>
+                        <p class="footer-move-up" style={{fontStyle: 'italic'} }>Where Quality Meets Code</p>
                     </div>
                     <div className="footer__get-ticket footer-move-up">
-                        <a href="#">GET TICKETS</a>
+                        <a href="#">Proposals</a>
                     </div>
                     <div className="footer__menu footer-move-up">
                         <ul>
-                            <li><a href="#">Become a sponsor</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Teams of service</a></li>
+                            {footerMenu.map((item) => {
+                                return (
+                                    <li key={item.id}>
+                                        <a href={item.link}>{item.text}</a>
+                                    </li>
+                                )
+                            })}
                         </ul>
                     </div>
                 </div>
@@ -31,13 +36,16 @@ export default function Footer() {
                 <div className="container">
                     <div className="copy-right__area">
                         <p class="copy-right__left">
-                            <i class="fa fa-copyright"></i> 2021 <span>T3 Con</span>. All Rights Reserved, The Test Trove Conference
+                            <i class="fa fa-copyright"></i> 2021 <strong>The Test Trove Conference.</strong> Some Rights Reserved
                         </p>
                         <div className="copy-right__right">
-                            <a href="#"><img src="assets/images/footer-face.png" alt="face" /></a>
-                            <a href="#"><img src="assets/images/footer-ins.png" alt="ins" /></a>
-                            <a href="#"><img src="assets/images/footer-in.png" alt="in" /></a>
-                            <a href="#"><img src="assets/images/footer-twit.png" alt="twit" /></a>
+                            {socials.map((social) => {
+                                return (
+                                    <a href={social.link} key={social.id}>
+                                        <img src={social.image} alt={social.alt} />
+                                    </a>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>

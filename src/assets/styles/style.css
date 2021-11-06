@@ -11062,7 +11062,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000000;
+  color: #FF0000;
   margin: 0;
 }
 
@@ -11437,7 +11437,7 @@ GENERAL
 .pagebanner-1 {
   height: 810px;
   width: 100%;
-  background-image: url("../images/pagebannerBrg.jpg");
+  background-image: url("../images/background.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -11451,14 +11451,14 @@ GENERAL
 .pagebanner-1__tittle__conference {
   font-family: "JosefinSans-700", sans-serif;
   font-size: 95px;
-  color: #ffffff;
+  color: #ff0000;
   margin: 0;
 }
 
 .pagebanner-1__tittle__webdesign {
   font-family: "JosefinSans-100", sans-serif;
   font-size: 95px;
-  color: #ffffff;
+  color: #ff0000;
   margin: 0;
   line-height: 100px;
 }
@@ -11480,13 +11480,13 @@ GENERAL
   .pagebanner-1__tittle__conference {
     font-family: "JosefinSans-700", sans-serif;
     font-size: 75px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
   }
   .pagebanner-1__tittle__webdesign {
     font-family: "JosefinSans-100", sans-serif;
     font-size: 75px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
     line-height: 75px;
   }
@@ -11499,13 +11499,13 @@ GENERAL
   .pagebanner-1__tittle__conference {
     font-family: "JosefinSans-700", sans-serif;
     font-size: 55px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
   }
   .pagebanner-1__tittle__webdesign {
     font-family: "JosefinSans-100", sans-serif;
     font-size: 55px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
   }
 }
@@ -11520,14 +11520,14 @@ GENERAL
   .pagebanner-1__tittle__conference {
     font-family: "JosefinSans-700", sans-serif;
     font-size: 45px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
     line-height: 45px;
   }
   .pagebanner-1__tittle__webdesign {
     font-family: "JosefinSans-100", sans-serif;
     font-size: 45px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
   }
 }
@@ -11539,13 +11539,13 @@ GENERAL
   .pagebanner-1__tittle__conference {
     font-family: "JosefinSans-700", sans-serif;
     font-size: 35px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
   }
   .pagebanner-1__tittle__webdesign {
     font-family: "JosefinSans-100", sans-serif;
     font-size: 35px;
-    color: #ffffff;
+    color: #ff0000;
     margin: 0;
   }
 }
@@ -12288,14 +12288,14 @@ GENERAL
   letter-spacing: -4px;
   text-align: center;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #FF0000;
   line-height: 130px;
   color: #ffffff;
   text-decoration: none;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(0deg, #000000, #000000 50%, #ffffff 50%);
+  background-image: linear-gradient(0deg, #FF0000, #FF0000 50%, #ffffff 50%);
   background-size: 100% 200%;
   background-position: 0% 0%;
   font-family: "Montserrat-700", sans-serif;
@@ -12778,14 +12778,14 @@ GENERAL
   letter-spacing: -4px;
   text-align: center;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #FF0000;
   line-height: 130px;
   color: #ffffff;
   text-decoration: none;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(0deg, #000000, #000000 50%, #ffffff 50%);
+  background-image: linear-gradient(0deg, #FF0000, #FF0000 50%, #ffffff 50%);
   background-size: 100% 200%;
   background-position: 0% 0%;
   font-family: "Montserrat-700", sans-serif;
@@ -12873,9 +12873,8 @@ GENERAL
   transform: rotate(180deg);
   font-family: "Montserrat-700", sans-serif;
   font-size: 74px;
-  color: #f2f2f2;
   margin: 0;
-  color: #f2f2f2;
+  color: #e2e2e2;
   line-height: 70px;
   word-spacing: -3px;
   letter-spacing: -1px;
@@ -12899,7 +12898,7 @@ GENERAL
 
 .schedule-list__box li span {
   font-size: 20px;
-  color: #333333;
+  color: #ff0000;
   font-family: "Montserrat-500", sans-serif;
 }
 
@@ -14077,14 +14076,14 @@ GENERAL
   letter-spacing: -4px;
   text-align: left;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #FF0000;
   line-height: 130px;
   color: #ffffff;
   text-decoration: none;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(0deg, #000000, #000000 50%, #ffffff 50%);
+  background-image: linear-gradient(0deg, #FF0000, #FF0000 50%, #ffffff 50%);
   background-size: 100% 200%;
   background-position: 0% 0%;
   font-family: "Montserrat-700", sans-serif;
@@ -14146,14 +14145,14 @@ GENERAL
   letter-spacing: -4px;
   text-align: right;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #FF0000;
   line-height: 130px;
   color: #ffffff;
   text-decoration: none;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(0deg, #000000, #000000 50%, #ffffff 50%);
+  background-image: linear-gradient(0deg, #FF0000, #FF0000 50%, #ffffff 50%);
   background-size: 100% 200%;
   background-position: 0% 0%;
   font-family: "Montserrat-700", sans-serif;
@@ -14219,7 +14218,7 @@ GENERAL
   text-align: center;
   font-family: "Montserrat-700", sans-serif;
   font-size: 170px;
-  color: #000000;
+  color: #FF0000;
   margin: 0;
   line-height: 285px;
 }
@@ -14288,13 +14287,13 @@ GENERAL
 .experience__text p {
   font-family: "Montserrat-400", sans-serif;
   font-size: 22px;
-  color: #333333;
+  color: #FF0000;
   margin: 25px 0 40px;
 }
 
 .experience__text a {
   position: relative;
-  color: #000000;
+  color: #FF0000;
   text-transform: uppercase;
   font-family: "JosefinSans-600", sans-serif;
   display: inline-block;
@@ -15283,9 +15282,6 @@ header {
   height: 100px;
 }
 
-.header__logo {
-  margin-left: 100px;
-}
 
 .header__buy-ticket {
   color: #000000;
@@ -15401,17 +15397,17 @@ header {
 }
 
 .header-home .header__buy-ticket {
-  color: #ffffff;
+  color: #ff0000;
   font-family: "JosefinSans-600", sans-serif;
   display: inline-block;
   text-align: center;
   line-height: 50px;
   background-color: transparent;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid #ff0000;
   height: 45px;
   width: 130px;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, #ffffff, #ffffff 50%, #000000 50%);
+  background-image: linear-gradient(to right, #ff0000, #ff0000 50%, #ffffff 50%);
   background-size: 210% 100%;
   background-position: 100%;
 }
@@ -15422,7 +15418,7 @@ header {
 }
 
 .header-home .header__buy-ticket:hover span {
-  color: #000000;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 767px) {
@@ -15441,7 +15437,7 @@ header {
 FOOTER
 --------------------------------------------------------------*/
 footer {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .footer {
@@ -15455,7 +15451,7 @@ footer {
 }
 
 .footer p {
-  color: #ffffff;
+  color: #ff0000;
 }
 
 .footer__site-text p {
@@ -15467,7 +15463,7 @@ footer {
 }
 
 .footer__get-ticket a {
-  color: #000000;
+  color: #ffffff;
   font-family: "JosefinSans-600", sans-serif;
   display: inline-block;
   text-align: center;
@@ -15477,16 +15473,16 @@ footer {
   height: 45px;
   width: 130px;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, #000000, #000000 50%, #ffffff 50%);
+  background-image: linear-gradient(0deg, #FF0000, #FF0000 100%, #ffffff 100%);
   background-size: 210% 100%;
   background-position: 99%;
   margin: 50px 0;
 }
 
 .footer__get-ticket a:hover {
-  transition: all 0.5s cubic-bezier(0, 0, 0.23, 1);
-  background-position: 0%;
-  color: #ffffff;
+  transition: all 0.8s cubic-bezier(0, 0, 0.23, 1);
+  background-position: 100% 100%;
+  color: #000000;
 }
 
 .footer__menu {
@@ -15501,15 +15497,15 @@ footer {
 }
 
 .footer__menu a {
-  color: #999999;
+  color: #ff0000;
 }
 
 .footer__menu a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .copy-right {
-  border-top: 1px solid #666666;
+  border-top: 1px solid #ff0000;
 }
 
 .copy-right__area {
@@ -15520,11 +15516,11 @@ footer {
 }
 
 .copy-right__left {
-  color: #999999;
+  color: #ff0000;
 }
 
 .copy-right__left span {
-  color: #ffffff !important;
+  color: #ff0000 !important;
 }
 
 .copy-right__right {
@@ -15534,10 +15530,10 @@ footer {
   align-items: center;
 }
 
-.copy-right__right img:hover {
+/* .copy-right__right img:hover {
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
-}
+} */
 
 @media screen and (max-width: 767px) {
   .footer {

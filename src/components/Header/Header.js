@@ -1,37 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/T3-T.png'
 
 export default function Header() {
     return (
-        <header >
-            <div className="extra-container ">
+        <header style={{ backgroundColor: 'white' }} >
+            <div className="extra-container" style={{backgroundColor:'white'}}>
                 <div className="header-home ">
-                    {/* <div className="header__menu-icon">
-                        <div className="header__menu-icon__dot ">
-                            <span ></span>
-                            <span ></span>
-                        </div>
-                        <div className="header__menu-icon__dot header__menu-icon__dot--vertical">
-                            <span ></span>
-                            <span ></span>
-                        </div>
-                        <div className="header__menu-icon__dot header__menu-icon__dot--skew">
-                            <span ></span>
-                            <span ></span>
-                        </div>
-                        <div className="header__menu-icon__dot header__menu-icon__dot--skew-reverse">
-                            <span ></span>
-                            <span ></span>
-                        </div>
-                    </div> */}
                     <div className="position-fixed"></div>
                     <div className="header__logo">
-                        <a href="index.html"><img src={Logo} alt="logo" /></a>
+                        <a href="index.html">
+                            <img src={Logo} alt="logo" width="50px" heignt="auto" />
+                        </a>
                     </div>
 
-                    <a href="#" class="header__buy-ticket ">
-                        <span>BUY TICKETS</span>
+                    <a href="https://cfp.devconf.info/" class="header__buy-ticket ">
+                        <span>PROPOSALS</span>
                     </a>
                 </div>
             </div>
