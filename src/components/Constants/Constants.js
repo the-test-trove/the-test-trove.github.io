@@ -15,78 +15,74 @@ const speakers = [
 const schedules = [
     {
         id: 'schedulelist-reveal1',
-        day: 'Day 1',
+        day: 'Nov 18, 2021 02:00 PM IST',
         class: '',
         listClass: 'schedule-list__box',
-        date: 'Nov 18th',
+        date: 'Thursday',
         items: [
             {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
+                title: 'Welcome note By Anisha Narang',
+                time: '2:00 -2:10 pm',
             },
             {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
+                title: 'Enterprise Integration Patterns using Camel By Rajshekhar Andala Pisharam',
+                time: '2:10 - 2:40 pm',
             },
             {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
+                title: 'Panel discussion: Psychological safety for Testers',
+                time: '2:45 - 3:25 pm',
             },
             {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
+                title: 'Grab your Coffee please!',
+                time: '3:25 pm - 3:35 pm',
             },
             {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
+                title: 'Being an Open-Sorcerer While Working in Red Hat By Adithya Krishna Sharma',
+                time: '3:35 -  4:05 pm',
             },
             {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
+                title: 'Closing note By Anisha Narang',
+                time: '4:05 -4:10 pm',
             },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            }
         ]
     },
-    {
-        id: 'schedulelist-reveal2',
-        class: 'schedule-list--lower',
-        listClass: 'schedule-list__box schedule-list__box--lower',
-        day: 'Day 2',
-        date: 'Nov 18th',
-        items: [
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-            {
-                title: 'Badge Pickup / Breakfast',
-                time: '8:30am',
-            },
-        ]
-    }
+    // {
+    //     id: 'schedulelist-reveal2',
+    //     class: 'schedule-list--lower',
+    //     listClass: 'schedule-list__box schedule-list__box--lower',
+    //     day: 'Day 2',
+    //     date: 'Nov 18th',
+    //     items: [
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //         {
+    //             title: 'Badge Pickup / Breakfast',
+    //             time: '8:30am',
+    //         },
+    //     ]
+    // }
 ]
 
 const experiences = [
