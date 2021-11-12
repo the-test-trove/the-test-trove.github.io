@@ -1,3 +1,4 @@
+# Sending Mail Containing API Test using Newman  and UI Test Reports From Gitlab Pipeline to a list of Emails 
 ## Prerequisites:
 * Gitlab Pages must have been configured in the pipeline
 * Excel file with a name that must be same as specified in the read_excel() method
@@ -26,7 +27,7 @@ e=pd.read_excel("FileName.xlsx",engine='openpyxl')
 emails=e['Column name having the emails'].values
 print(emails)
 smtp_server = "<smtp-server-url>"
-smtpUser = "smtpuserofcompany"
+smtpUser = "smtp-user-id"
 port = 25
 smtpAuth = "none"
 sender_email = "<sender-mail>"
@@ -58,7 +59,7 @@ with smtplib.SMTP(smtp_server, port) as server:
 
 * The sender_email,receiver_email, message parameter’s values may be changed as per your projects. 
 * The link to the report will be found once Gitlab Pages has been configured for your project.
-* The smtpUser,port and the smtp_server must not be changed unless there is change in RedHat SMTP configuration (if it happens in future)
+* The smtpUser,port and the smtp_server must be set accordingly
 * In .gitlab-ci.yml file, add the following and also add notify stage in the stages of the pipeline
 
 ```
