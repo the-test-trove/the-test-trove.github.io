@@ -73,4 +73,5 @@ before_script:
  - pip3 install requests
 
  script:
-   - python3 sendmail.py ```
+   - python3 sendmail.py 
+ ```
