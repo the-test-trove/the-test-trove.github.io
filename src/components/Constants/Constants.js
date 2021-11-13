@@ -1,15 +1,3 @@
-// Conference Speakers List
-
-const speakers = [
-    {
-        id: 1,
-        socialLink: '',
-        image: '',
-        name: '',
-        title: ''
-    },
-]
-
 // Conference Schedule
 
 const schedules = [
@@ -85,23 +73,6 @@ const schedules = [
     // }
 ]
 
-const experiences = [
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-]
 
 // Conference Sponsors
 
@@ -116,12 +87,6 @@ const sponsors = [
 
 const socials = [
     {
-        id: 'facebook',
-        alt: 'facebook',
-        image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-face.png',
-        link: '/'
-    },
-    {
         id: 'twitter',
         alt: 'twitter',
         image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-twit.png',
@@ -132,6 +97,12 @@ const socials = [
         alt: 'linkedin',
         image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-in.png',
         link: 'https://www.linkedin.com/groups/8970766/'
+    },
+    {
+        id: 'facebook',
+        alt: 'facebook',
+        image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-face.png',
+        link: '/'
     }
 ]
 
@@ -140,30 +111,28 @@ const socials = [
 const footerMenu = [
     {
         id: 1,
-        text: 'Become a sponsor',
-        link: ''
+        text: 'Code of Conduct',
+        link: 'https://www.devconf.info/coc/'
     },
     {
         id: 2,
         text: 'Contact',
-        link: ''
+        link: 'mailto:anarang@redhat.com'
     },
     {
         id: 3,
         text: 'Privacy policy',
-        link: ''
+        link: 'https://www.devconf.info/privacy-statement/'
     },
     {
         id: 4,
-        text: 'Terms of service',
-        link: ''
+        text: 'Media Policy',
+        link: 'https://www.devconf.info/media-policy/'
     },
 ]
 module.exports = {
     socials: socials,
     footerMenu: footerMenu,
     schedules: schedules,
-    experiences: experiences,
-    speakers: speakers,
     sponsors: sponsors
 }

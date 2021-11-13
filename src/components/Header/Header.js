@@ -14,8 +14,8 @@ export default function Header() {
                         </a>
                     </div>
 
-                    <a href="https://cfp.devconf.info/" class="header__buy-ticket ">
-                        <span>PROPOSALS</span>
+                    <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q4_nov_18_2021" class="header__buy-ticket ">
+                        <span>More Info</span>
                     </a>
                 </div>
             </div>

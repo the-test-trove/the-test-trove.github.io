@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { speakers } from '../Constants/Constants'
+// import { speakers } from '../Constants/Constants'
+import Speaker1 from '../../assets/images/uploads/speaker/speakers13.jpg'
 
 export default function Speakers() {
     return (
@@ -16,35 +17,28 @@ export default function Speakers() {
                     <div className="speaker-slider__arrow speaker-slider__arrow--up"><i class="fa fa-angle-up"></i></div>
                     <div className="speaker-slider__arrow speaker-slider__arrow--down"><i class="fa fa-angle-down"></i></div>
                     <div className="speaker-slider">
-
-                        <div className="speaker-slider__item">
-                            <div className="col-lg-4 col-md-6">
-                                {speakers.map((speaker) => {
-                                    return (
-                                        <a href={speaker.socialLink} class="speaker-slider__item__thumb" key={speaker.id}>
-                                            <img src={speaker.image} alt={`Speaker ${speaker.id}`} />
-                                            <div className="speaker-slider__item__thumb__info">
-                                                <h4>{speaker.name}</h4>
-                                                <h5 >{speaker.title}</h5>
-                                            </div>
-                                        </a>
-                                    )   
-                                })}
+                        <div className="row">
+                            <div className="col-lg-3 col-sm-6">
+                                <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q2_may_26_2021" class="experience__thumb movein-ex--1">
+                                    <img src={Speaker1} alt="experience3" style={{ cursor: 'pointer' }} />
+                                </a>
                             </div>
-                        </div>
-
-                        <div className="speaker-slider__item">
-                            <div className="col-lg-4 ">
-                                <a href="#" class="speaker-slider__item__thumb">
-                                    <img src="assets/images/uploads/speaker/speakers6.jpg" alt="speakers6" />
-                                        <div className="speaker-slider__item__thumb__info">
-                                            <h4>Daniel Bryan</h4>
-                                            <h5>Senior Developer</h5>
-                                        </div>
+                            <div className="col-lg-3 col-sm-6">
+                                <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q3_august_26_2021" class="experience__thumb movein-ex--1">
+                                    <img src={Speaker1} alt="experience4" style={{ cursor: 'pointer' }} />
+                                </a>
+                            </div>
+                            <div className="col-lg-3 col-sm-6">
+                                <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q3_august_26_2021" class="experience__thumb movein-ex--1">
+                                    <img src={Speaker1} alt="experience4" style={{ cursor: 'pointer' }} />
+                                </a>
+                            </div>
+                            <div className="col-lg-3 col-sm-6">
+                                <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q3_august_26_2021" class="experience__thumb movein-ex--1">
+                                    <img src={Speaker1} alt="experience4" style={{ cursor: 'pointer' }} />
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

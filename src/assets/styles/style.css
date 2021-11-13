@@ -11055,6 +11055,11 @@ p {
   color: #666666;
   margin: 0;
 }
+h4, h5, h6{
+  font-family: "Montserrat-700", sans-serif !important;
+  font-size: 20px !important;
+}
+
 
 h1,
 h2,
@@ -11437,7 +11442,7 @@ GENERAL
 .pagebanner-1 {
   height: 810px;
   width: 100%;
-  background-image: url("../images/background-f.png");
+  background-image: url("../images/background-r.png");
   background-position: center;
   background-size: cover;
   display: flex;

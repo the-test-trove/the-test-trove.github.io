@@ -14,11 +14,12 @@ export default function Schedule() {
                     <div className="row">
                         {schedules.map((schedule) => {
                             return(
-                                <div id = { schedule.id } className = "col-lg-6" key={schedule.id} >
+                                <div id = { schedule.id } className = "col-lg-12" key={schedule.id} >
                                 <h2 className={schedule.class}>{schedule.day}</h2>
                                 <div className={schedule.listClass}>
                                     <h3>{schedule.date}</h3>
                                     <ul className="min-list">
+                                            <li><span><strong>Session</strong></span><span><strong>Timing</strong></span></li>
                                             {schedule.items.map((item) => {
                                                 return (
                                                     <li><span>{item.title}</span><span>{item.time}</span></li>

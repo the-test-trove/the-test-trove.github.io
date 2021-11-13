@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { socials, footerMenu} from '../Constants/Constants'
+import { socials } from '../Constants/Constants'
 
 
 export default function Footer() {
@@ -17,9 +17,9 @@ export default function Footer() {
                         <p class="footer-move-up" style={{fontStyle: 'italic'} }>Where Quality Meets Code</p>
                     </div>
                     <div className="footer__get-ticket footer-move-up">
-                        <a href="#">Proposals</a>
+                        <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q4_nov_18_2021">More Info</a>
                     </div>
-                    <div className="footer__menu footer-move-up">
+                    {/* <div className="footer__menu footer-move-up">
                         <ul>
                             {footerMenu.map((item) => {
                                 return (
@@ -29,7 +29,7 @@ export default function Footer() {
                                 )
                             })}
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="copy-right">
