@@ -9,13 +9,13 @@ import Experience4 from '../../assets/images/uploads/experience/experience4.jpg'
 export default function Experience() {
     return (
         <section>
-            <div className="extra-container">
+            {/* <div className="extra-container">
                 <div className="experience__tittle">
                     <div className="experience__tittle1"><h1>Virtual, Remote</h1></div>
                     <h3 id="counting" class="tittle-eff2">18th</h3>
                     <div className="experience__tittle2"><h1>November, 2021</h1></div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="experience">
                 <div className="extra-container">
