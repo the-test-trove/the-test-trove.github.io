@@ -5,6 +5,13 @@ export default function Schedule() {
     return (
         <section id="schedule">
             <div className="extra-container">
+                <div className="experience__tittle">
+                    <div className="experience__tittle1"><h1>Virtual, Remote</h1></div>
+                    <h3 id="counting" class="tittle-eff2">18th</h3>
+                    <div className="experience__tittle2"><h1>November, 2021</h1></div>
+                </div>
+            </div>
+            <div className="extra-container">
                 <div className="schedule-list__tittle">
                     <h1>Conference Schedule</h1>
                 </div>
