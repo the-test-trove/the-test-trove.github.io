@@ -1,5 +1,7 @@
 import React from 'react'
 import { schedules } from '../Constants/Constants';
+import Experience5 from '../../assets/images/uploads/experience/experience5.png'
+
 
 export default function Schedule() {
     return (
@@ -9,6 +11,17 @@ export default function Schedule() {
                     <div className="experience__tittle1"><h1>Virtual, Remote</h1></div>
                     <h3 id="counting" class="tittle-eff2">18th</h3>
                     <div className="experience__tittle2"><h1>November, 2021</h1></div>
+                </div>
+            </div>
+            <div className="experience">
+                <div className="extra-container">
+                    <div className="row">
+                        <div className="col-lg-12 col-sm-6">
+                            <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q4_nov_18_2021" class="experience__thumb movein-ex--1">
+                                <img src={Experience5} alt="experience1" style={{cursor: 'pointer'}} />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="extra-container">
