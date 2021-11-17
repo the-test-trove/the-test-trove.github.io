@@ -22,9 +22,9 @@ export default function HomePage() {
             <MenuNav />
             <PageBanner />
             <About />
-            <Experience />
             <Schedule />
             <Speakers />
+            <Experience />
             {/* <Sponsors /> */}
             <Footer />
             <ReactHelmetScripts />
