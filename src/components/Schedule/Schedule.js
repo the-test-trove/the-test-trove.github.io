@@ -1,5 +1,5 @@
 import React from 'react'
-import { schedules } from '../Constants/Constants';
+import { schedules, dates } from '../Constants/Constants';
 import Experience5 from '../../assets/images/uploads/experience/experience5.png'
 
 
@@ -8,9 +8,15 @@ export default function Schedule() {
         <section id="schedule">
             <div className="extra-container">
                 <div className="experience__tittle">
-                    <div className="experience__tittle1"><h1>Virtual, Remote</h1></div>
-                    <h3 id="counting" class="tittle-eff2">18th</h3>
-                    <div className="experience__tittle2"><h1>November, 2021</h1></div>
+                    {dates.map((date) => {
+                        return (
+                            <>
+                                <div className="experience__tittle1"><h1>{date.location}</h1></div>
+                                    <h3 id="counting" class="tittle-eff2">{date.date}</h3>
+                                <div className="experience__tittle2"><h1>{date.monthYear}</h1></div>
+                            </>
+                        );
+                    })}
                 </div>
             </div>
             <div className="experience">
