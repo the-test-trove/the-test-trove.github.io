@@ -1,6 +1,6 @@
 import React, { version } from 'react'
 import { Helmet } from 'react-helmet'
-import { version } from '../Constants/Constants';
+import { versions } from '../Constants/Constants';
 
 export default function PageBanner() {
     return (
@@ -9,7 +9,7 @@ export default function PageBanner() {
                 <div className="extra-container ">
                     <div className="pagebanner-1__tittle ">
                         <h1 class="pagebanner-1__tittle__webdesign schedule-tittle-eff">The Test Trove Conference</h1>
-                        {version.map((version) => {
+                        {versions.map((version) => {
                             return(
                                 <h1 class="pagebanner-1__tittle__conference schedule-tittle-eff2">{version.quarter}{" "}{version.year}</h1>
                             );
