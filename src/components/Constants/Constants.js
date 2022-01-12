@@ -1,3 +1,22 @@
+// Conference Iteration/Version
+
+const versions = [
+    {
+        quarter: 'Q4', // Q1, Q2, Q3, Q4
+        year: '2021', // 2021, 2022, 2023, 2024
+    }
+]
+
+// Conference Dates
+
+const dates = [
+    {
+        location: 'Virtual, Remote',
+        date: '18th',
+        monthYear: 'November, 2021',
+    }
+]
+
 // Conference Schedule
 
 const schedules = [
@@ -134,5 +153,7 @@ module.exports = {
     socials: socials,
     footerMenu: footerMenu,
     schedules: schedules,
-    sponsors: sponsors
+    sponsors: sponsors,
+    dates: dates,
+    versions: versions,
 }
