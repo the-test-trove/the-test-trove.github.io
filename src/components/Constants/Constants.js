@@ -2,8 +2,8 @@
 
 const versions = [
     {
-        quarter: 'Q4', // Q1, Q2, Q3, Q4
-        year: '2021', // 2021, 2022, 2023, 2024
+        quarter: 'Q1', // Q1, Q2, Q3, Q4
+        year: '2022', // 2021, 2022, 2023, 2024
     }
 ]
 
@@ -12,8 +12,8 @@ const versions = [
 const dates = [
     {
         location: 'Virtual, Remote',
-        date: '18th',
-        monthYear: 'November, 2021',
+        date: '24th',
+        monthYear: 'February , 2022',
     }
 ]
 
@@ -53,43 +53,6 @@ const schedules = [
             },
         ]
     },
-    // {
-    //     id: 'schedulelist-reveal2',
-    //     class: 'schedule-list--lower',
-    //     listClass: 'schedule-list__box schedule-list__box--lower',
-    //     day: 'Day 2',
-    //     date: 'Nov 18th',
-    //     items: [
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //         {
-    //             title: 'Badge Pickup / Breakfast',
-    //             time: '8:30am',
-    //         },
-    //     ]
-    // }
 ]
 
 

@@ -32,7 +32,7 @@ export default function Schedule() {
             </div>
             <div className="extra-container">
                 <div className="schedule-list__tittle">
-                    <h1>Conference Schedule</h1>
+                    <h1> Previous Conference Schedule</h1>
                 </div>
             </div>
             <div className="schedule-list">
