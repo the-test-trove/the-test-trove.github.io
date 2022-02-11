@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { socials } from '../Constants/Constants'
+import { socials } from '../Constants/Constants';
+import { importantDates } from '../Constants/Constants';
 
 
 export default function Footer() {
@@ -8,7 +9,31 @@ export default function Footer() {
         <footer>
             <div className="cursor"></div>
             <div className="cursor-follower"></div>
-
+            <br />
+            <br />
+            <div className="schedule-list">
+                <div className="container">
+                    <div className="row">
+                        {importantDates.map((impoDate) => {
+                            return (
+                                <div id={impoDate.id} className="col-lg-12" key={impoDate.id} >
+                                    <h2 className={impoDate.class}>Important Dates</h2>
+                                    <div className={impoDate.listClass}>
+                                        <ul className="min-list">
+                                            {impoDate.items.map((item) => {
+                                                return (
+                                                    <li><span>{item.title}</span><span>{item.time}</span></li>
+                                                );
+                                            })}
+                                        </ul>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            </div>
+            <hr style={{width: '50%'}} />
             <div className="container">
                 <div className="footer ">
                     <a class="footer__logo" href="index.html"><img class="footer-move-up" src="assets/images/T3.png" alt="logo" /></a>
@@ -36,7 +61,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="copy-right__area">
                         <p class="copy-right__left">
-                            <i class="fa fa-copyright"></i> 2021 <strong>The Test Trove Conference.</strong> Some Rights Reserved
+                            <i class="fa fa-copyright"></i>2022 <strong>The Test Trove Conference.</strong> Some Rights Reserved
                         </p>
                         <div className="copy-right__right">
                             {socials.map((social) => {

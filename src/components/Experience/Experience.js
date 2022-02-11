@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import Experience1 from '../../assets/images/uploads/experience/experience1.jpg'
+import Experience6 from '../../assets/images/uploads/experience/experience6.jpg'
 import Experience2 from '../../assets/images/uploads/experience/experience2.jpg'
 import Experience3 from '../../assets/images/uploads/experience/experience3.jpg'
 import Experience4 from '../../assets/images/uploads/experience/experience4.jpg'
@@ -14,12 +14,12 @@ export default function Experience() {
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
                             <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conference_t3con_q4_2020" class="experience__thumb movein-ex--1">
-                                <img src={Experience1} alt="experience1" style={{cursor: 'pointer'}} />
+                                <img src={Experience6} alt="t# Con Q4 2021" style={{cursor: 'pointer'}} />
                             </a>
                         </div>
                         <div className="col-lg-6 col-sm-6">
                             <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/t3con_q1_2021_is_here_join_us_on_feb_23_2021" class="experience__thumb movein-ex--1">
-                                <img src={Experience2} alt="experience2" style={{cursor: 'pointer'}} />
+                                <img src={Experience2} alt="T3 Con Q1 2021" style={{cursor: 'pointer'}} />
                             </a>
                         </div>
                     </div>
@@ -40,15 +40,17 @@ export default function Experience() {
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q2_may_26_2021" class="experience__thumb movein-ex--1">
-                                <img src={Experience3} alt="experience3" style={{cursor: 'pointer'}} />
+                                <img src={Experience3} alt="T3 Con Q2 2021" style={{cursor: 'pointer'}} />
                             </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a href="https://source.redhat.com/groups/public/workflow_and_integration_qe/the_test_trove/the_test_trove_conferencet3con_q3_august_26_2021" class="experience__thumb movein-ex--1">
-                                <img src={Experience4} alt="experience4" style={{cursor: 'pointer'}} />
+                                <img src={Experience4} alt="T3 Con Q3 2021" style={{cursor: 'pointer'}} />
                             </a>
                         </div>
                     </div>
+
+                    
                 </div>
 
 

@@ -14,8 +14,8 @@ export default function Header() {
                         </a>
                     </div>
 
-                    <a href="https://cfp.devconf.info/" class="header__buy-ticket ">
-                        <span>Proposals</span>
+                    <a href="https://cfp.devconf.info/" class="header__buy-ticket">
+                        <span>Register</span>
                     </a>
                 </div>
             </div>
