@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-// import { speakers } from '../Constants/Constants'
-import adithya from '../../assets/images/uploads/speaker/adithya.jpg'
-import ap from '../../assets/images/uploads/speaker/AP.jpg'
-import aman from '../../assets/images/uploads/speaker/aman.jpeg'
-import ayush from '../../assets/images/uploads/speaker/ayush.jpeg'
-import chetan from '../../assets/images/uploads/speaker/chetan.png'
+import Satyajit from '../../assets/images/uploads/speaker/Satyajit.png'
+import Anjana from '../../assets/images/uploads/speaker/Anjana.png'
+import Ankit from '../../assets/images/uploads/speaker/Ankit.png'
+import Nitish from '../../assets/images/uploads/speaker/Nitish.png'
 
 import './Speakers.css'
 
@@ -25,41 +23,38 @@ export default function Speakers() {
                     <div className="speaker-slider">
                         <div className="row">
                             <div className="col-lg-3 col-sm-6 speaker-align">
-                                <a href="https://www.linkedin.com/in/rajshekhar-ap-ab657410/">
-                                    <img src={ap} alt="experience3" style={{ cursor: 'pointer' }} />
+                                <a href="https://www.linkedin.com/in/satyajit-bulage-5a6928105/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Satyajit} alt="experience3" style={{ cursor: 'pointer' }} />
                                 </a>
-                                <h5>AP</h5>
+                                <h5>Satyajit Bulage</h5>
                             </div>
                             <div className="col-lg-3 col-sm-6 speaker-align">
-                                <a href="https://www.linkedin.com/in/adiiikris/">
-                                    <img src={adithya} alt="experience4" style={{ cursor: 'pointer' }} />
+                                <a href="https://www.linkedin.com/in/anjana-krishnadasan-12ba09131" target="_blank" rel="noopener noreferrer">
+                                    <img src={Anjana} alt="experience4" style={{ cursor: 'pointer' }} />
                                 </a>
-                                <h5>Adithya Krishna Sharma</h5>
+                                <h5>Anjana Krishnadasan</h5>
                             </div>
                             <br/>
                             <div className="col-lg-3 col-sm-6 speaker-align">
-                                <a href="https://www.linkedin.com/in/amaan-aziz/">
-                                    <img src={aman} alt="experience4" style={{ cursor: 'pointer' }} />
+                                <a href="https://www.linkedin.com/in/ankit-gadgil-42882457/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Ankit} alt="experience4" style={{ cursor: 'pointer' }} />
                                 </a>
-                                <h5>Tarique Aman Aziz</h5>
+                                <h5>Ankit Gadgil</h5>
                             </div>
                             <div className="col-lg-3 col-sm-6 speaker-align">
-                                <a href="https://www.linkedin.com/in/ayush-sharma-1b7361a0/">
-                                    <img src={ayush} alt="experience4" style={{ cursor: 'pointer' }} />
+                                <a href="https://www.linkedin.com/in/nitishsharma1/" target="_blank" rel="noopener noreferrer">
+                                    <img src={Nitish} alt="experience4" style={{ cursor: 'pointer' }} />
                                 </a>
-                                <h5>Ayush Sharma</h5>
-                            </div>
-                            <div className="col-lg-3 col-sm-6 speaker-align">
-                                <a href="https://www.linkedin.com/in/chetan-yeshi-98a8ba84/">
-                                    <img src={chetan} alt="experience4" style={{ cursor: 'pointer' }} />
-                                </a>
-                                <h5>Chetan Yeshi</h5>
+                                <h5>Nitish Sharma</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <br />
+            <br />
+            <br />
+            <br />
         </section>
     )
 }

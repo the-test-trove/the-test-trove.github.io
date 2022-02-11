@@ -22,39 +22,66 @@ const dates = [
 const schedules = [
     {
         id: 'schedulelist-reveal1',
-        day: 'Nov 18, 2021 02:00 PM IST',
+        day: 'Feb 24th, 2022 02:00 PM IST',
         class: '',
         listClass: 'schedule-list__box',
         date: 'Thursday',
         items: [
             {
-                title: 'Welcome note By Anisha Narang',
+                title: 'Welcome Note By Anisha Narang',
                 time: '2:00 -2:10 pm',
             },
             {
-                title: 'Enterprise Integration Patterns using Camel By Rajshekhar Andala Pisharam',
+                title: 'Introduction to Containerised Virtual Machine By Satyajit Bulage',
                 time: '2:10 - 2:40 pm',
             },
             {
-                title: 'Panel discussion: Psychological safety for Testers',
-                time: '2:45 - 3:25 pm',
+                title: 'Documentation: Everyday collaboration By Anjana Krishnadasan',
+                time: '2:40 - 2:55 pm',
             },
             {
                 title: 'Grab your Coffee please!',
-                time: '3:25 pm - 3:35 pm',
+                time: '2:55 - 3:05 pm',
             },
             {
-                title: 'Being an Open-Sorcerer While Working in Red Hat By Adithya Krishna Sharma',
-                time: '3:35 -  4:05 pm',
+                title: 'Using Firefox like a Boss By Ankit Gadgil',
+                time: '3:05 -  3:35 pm',
             },
             {
-                title: 'Closing note By Anisha Narang',
-                time: '4:05 -4:10 pm',
+                title: 'Red Hat Machine Translation By Nitish Sharma',
+                time: '3:35 - 3:50 pm',
+            },
+            {
+                title: 'Closing Note By Swapnil Jadhav',
+                time: '3:50 - 4:00 pm',
             },
         ]
     },
 ]
 
+const importantDates = [
+    {
+        id: 'schedulelist-reveal1',
+        day: 'Feb 24th, 2022 02:00 PM IST',
+        class: '',
+        listClass: 'schedule-list__box',
+        date: 'Thursday',
+        items: [
+            {
+                title: 'CFP Opens',
+                time: 'January 17th 2022',
+            },
+            {
+                title: 'CFP Closes',
+                time: 'January 28th 2022',
+            },
+            {
+                title: 'Conference Date',
+                time: 'February 24th 2022',
+            },
+        ]
+    },
+]
 
 // Conference Sponsors
 
@@ -70,20 +97,20 @@ const sponsors = [
 const socials = [
     {
         id: 'twitter',
-        alt: 'twitter',
-        image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-twit.png',
+        alt: 'T3 Con Twitter',
+        image: 'https://img.icons8.com/color/48/000000/twitter-circled--v1.png',
         link: 'https://twitter.com/thetesttrove'
     },
     {
         id: 'linkedin',
-        alt: 'linkedin',
-        image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-in.png',
+        alt: 'T3 Con LinkedIn Group',
+        image: 'https://img.icons8.com/color/48/000000/linkedin.png',
         link: 'https://www.linkedin.com/groups/8970766/'
     },
     {
         id: 'facebook',
-        alt: 'facebook',
-        image: 'https://raw.githubusercontent.com/adithyaakrishna/the-test-trove.github.io/staging/src/assets/images/footer-face.png',
+        alt: 'T3 Con Facebook',
+        image: 'https://img.icons8.com/fluency/48/000000/facebook-new.png',
         link: '/'
     }
 ]
@@ -119,4 +146,5 @@ module.exports = {
     sponsors: sponsors,
     dates: dates,
     versions: versions,
+    importantDates: importantDates,
 }

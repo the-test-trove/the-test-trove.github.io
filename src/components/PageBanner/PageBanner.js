@@ -9,15 +9,16 @@ export default function PageBanner() {
                 <div className="extra-container ">
                     <div className="pagebanner-1__tittle ">
                         <h1 class="pagebanner-1__tittle__webdesign schedule-tittle-eff">The Test Trove Conference</h1>
-                        {/* {versions.map((version) => {
+                        {versions.map((version) => {
                             return(
-                                <h4 class="pagebanner-1__tittle__conference schedule-tittle-eff2">{version.quarter}{" "}{version.year}</h4>
+                                <h1 class="pagebanner-1__tittle__conference schedule-tittle-eff2">{version.quarter}{" "}{version.year}</h1>
                             );
-                        })} */}
-                        <h2 class="pagebanner-2__tittle__conference">Call For Proposals Open</h2>
-                        <a href="https://cfp.devconf.info/" class="header__buy-ticket " target="_blank" without rel="noreferrer">
-                            <span>Proposals</span>
-                        </a>
+                        })}
+                        <h2 class="pagebanner-2__tittle__conference">February 24th 2022</h2>
+                        <h4 class="pagebanner-2__tittle__conference"><img src="https://img.icons8.com/color/48/000000/marker--v2.png" alt="Location Pin" width="20px"/>Virtual, Remote</h4>
+                        {/* <a href="https://cfp.devconf.info/" class="header__buy-ticket proposals-button" target="_blank" without rel="noreferrer">
+                            <span>Register</span>
+                        </a> */}
                     </div>
                 </div>
             </div>
