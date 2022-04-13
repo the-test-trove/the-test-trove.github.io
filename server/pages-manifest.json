@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/auth": "pages/api/auth.js",
+  "/api/github-oauth": "pages/api/github-oauth.js",
+  "/api/register": "pages/api/register.js",
+  "/api/save-github-token": "pages/api/save-github-token.js",
+  "/api/stages": "pages/api/stages.js",
+  "/api/ticket-images/[username]": "pages/api/ticket-images/[username].js",
+  "/expo": "pages/expo.js",
+  "/expo/[slug]": "pages/expo/[slug].js",
+  "/": "pages/index.html",
+  "/jobs": "pages/jobs.js",
+  "/schedule": "pages/schedule.js",
+  "/speakers": "pages/speakers.js",
+  "/speakers/[slug]": "pages/speakers/[slug].js",
+  "/stage/[slug]": "pages/stage/[slug].js",
+  "/ticket-image": "pages/ticket-image.html",
+  "/tickets/[username]": "pages/tickets/[username].js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
