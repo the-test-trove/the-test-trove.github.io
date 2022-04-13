@@ -1,0 +1,11 @@
+{
+  "name": "T3 Con",
+  "description": "The Test Trove Conference",
+  "previewImage": "",
+  "datocmsProjectId": "37685",
+  "deploymentType": "vercel",
+  "vercelIntegrationIds": ["oac_7yeSwUoVR5no3SlA9WM6oR7l"],
+  "buildCommand": "npm run build",
+  "datocmsApiTokenEnvName": "DATO_CMS_SECRET_TOKEN",
+  "livePreviewUrl": "https://the-test-trove.github.io"
+}
