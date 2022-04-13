@@ -1,8 +1,0 @@
-{
-  "../components/captcha.tsx -> @hcaptcha/react-hcaptcha": {
-    "id": 6702,
-    "files": [
-      "static/chunks/702.8c0d1dcb797daa0a.js"
-    ]
-  }
-}
