@@ -17,13 +17,15 @@
 import { GetStaticProps } from 'next';
 
 import Page from '@components/page';
-import Schedule from '@components/schedule';
+// import Schedule from '@components/schedule';
 import Layout from '@components/layout';
 import Header from '@components/header';
 
 import { getAllStages } from '@lib/cms-api';
 import { Stage } from '@lib/types';
 import { META_DESCRIPTION } from '@lib/constants';
+import Image from 'next/image';
+import styles from './schedule.module.css';
 
 type Props = {
   allStages: Stage[];
@@ -31,15 +33,25 @@ type Props = {
 
 export default function SchedulePage({ allStages }: Props) {
   const meta = {
-    title: 'Schedule - Virtual Event Starter Kit',
+    title: 'Schedule - The T3 Con',
     description: META_DESCRIPTION
   };
 
   return (
     <Page meta={meta}>
       <Layout>
+        <div
+            style={{
+              marginTop: "100px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <Image className={styles.schedule} src="https://raw.githubusercontent.com/the-test-trove/the-test-trove.github.io/previous/src/assets/images/T3Con-Q3.png" alt="T3 Con Q3 Schedule" layout='fixed' width={841} height={490} />
+          </div>
+
         <Header hero="Schedule" description={meta.description} />
-        <Schedule allStages={allStages} />
+        {/* <Schedule allStages={allStages} /> */}
       </Layout>
     </Page>
   );
