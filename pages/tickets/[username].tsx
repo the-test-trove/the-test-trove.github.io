@@ -40,14 +40,14 @@ export default function TicketShare({ username, ticketNumber, name, usernameFrom
     ? {
         title: `${name}’s ${SITE_NAME} Ticket`,
         description: META_DESCRIPTION,
-        image: `/api/ticket-images/${username}`,
-        url: `${SITE_URL}/tickets/${username}`
+        image: `/api/ticket-images/`,
+        url: `${SITE_URL}/tickets/`
       }
     : {
         title: 'Ticket Demo - Virtual Event Starter Kit',
         description: META_DESCRIPTION,
-        image: `/api/ticket-images/${usernameFromParams}`,
-        url: `${SITE_URL}/tickets/${usernameFromParams}`
+        image: `/api/ticket-images/}`,
+        url: `${SITE_URL}/tickets/`
       };
 
   return (
