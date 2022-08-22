@@ -26,6 +26,5 @@ module.exports = {
       'raw.githubusercontent.com',
     ],
     imageSizes: [24, 64, 300]
-  },
-  distDir: 'build',
+  }
 };
