@@ -32,11 +32,11 @@ export default function TicketActions({ username }: Props) {
   const [imgReady, setImgReady] = useState(false);
   const [loading, setLoading] = useState(false);
   const downloadLink = useRef<HTMLAnchorElement>();
-  const permalink = encodeURIComponent(`${SITE_URL}/tickets/${username}`);
+  const permalink = encodeURIComponent(`${SITE_URL}/tickets/`);
   const text = encodeURIComponent(TWEET_TEXT);
   const tweetUrl = `https://twitter.com/intent/tweet?url=${permalink}&via=vercel&text=${text}`;
   const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${permalink}`;
-  const downloadUrl = `/api/ticket-images/${username}`;
+  const downloadUrl = `/api/ticket-images`;
 
   useEffect(() => {
     setImgReady(false);
