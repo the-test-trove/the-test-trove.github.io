@@ -14,15 +14,22 @@
  * limitations under the License.
  */
 
-import IconLogo from './icons/icon-logo';
 import styles from './logo.module.css';
 import { SITE_NAME_MULTILINE } from '@lib/constants';
+import Image from 'next/image';
 
 export default function Logo({ textSecondaryColor = 'var(--accents-5)' }) {
   return (
     <div className={styles.logo}>
       <div className={styles.icon}>
-        <IconLogo backgroundColor="var(--accents-1)" foregroundColor="black" />
+        <Image
+            alt='T3 Con'
+            title='T3 Con Logo'
+            src="https://raw.githubusercontent.com/the-test-trove/the-test-trove.github.io/previous/src/assets/images/T3-T.png"
+            loading="lazy"
+            // height={400}
+            // width={300}
+          />
       </div>
       <div className={styles.text}>
         <div>{SITE_NAME_MULTILINE[0]}</div>

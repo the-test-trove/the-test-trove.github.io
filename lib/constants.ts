@@ -24,9 +24,9 @@ export const META_DESCRIPTION =
   'The Test Trove Conference';
 export const SITE_DESCRIPTION =
   'The Test Trove Conference';
-export const DATE = '01 January 2022';
-export const SHORT_DATE = 'Jan 1 - 9:00am PST';
-export const FULL_DATE = 'Jan 1st 9am Pacific Time (GMT-7)';
+export const DATE = '25th August 2022';
+export const SHORT_DATE = 'Aug 25th - 14:00pm IST';
+export const FULL_DATE = 'Aug 25th 14:00pm Indian Standard Time (GMT +5:30)';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
 
@@ -38,28 +38,28 @@ export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 export const CODE_OF_CONDUCT =
   'https://www.devconf.info/coc/';
 export const REPO = 'https://github.com/the-test-trove/the-test-trove.github.io';
-export const SAMPLE_TICKET_NUMBER = 1234;
+export const SAMPLE_TICKET_NUMBER = 7;
 export const NAVIGATION = [
+  // {
+  //   name: 'Previous Edition',
+  //   route: '/'
+  // },
   {
-    name: 'Previous Edition',
+    name: 'Home',
     route: '/'
   },
-  // {
-  //   name: 'Vercel Stage',
-  //   route: '/stage/c'
-  // },
   // {
   //   name: '100ms Stage',
   //   route: '/stage/m'
   // },
   {
     name: 'Schedule',
-    route: '/'
+    route: '/schedule'
   },
-  {
-    name: 'Speakers',
-    route: '/'
-  },
+  // {
+  //   name: 'Speakers',
+  //   route: '/'
+  // },
   // {
   //   name: 'Expo',
   //   route: '/expo'

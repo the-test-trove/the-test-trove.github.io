@@ -31,7 +31,7 @@ type Props = {
 
 export default function ExpoPage({ sponsors }: Props) {
   const meta = {
-    title: 'Expo - Virtual Event Starter Kit',
+    title: 'Expo - The T3 Con',
     description: META_DESCRIPTION
   };
 

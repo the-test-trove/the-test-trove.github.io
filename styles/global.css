@@ -53,16 +53,17 @@
   --accents-5: #666666;
   --accents-6: #444444;
   --accents-7: #333333;
-  --accents-8: #111111;
+  --accents-8: #ffffff;
 
-  --gray: #252729;
+  --gray: #ffffff;
   --secondary-color: #8a8f98;
-  --sidebar: #0e0e10;
+  --secondary-color-two: #f00;
+  --sidebar: #fff;
   --brand: #702ec2;
   --brand-lighter: #d6ccee;
   --brand-light: #8465cb;
   --brand-dark: #472a84;
-  --gray1: #222222;
+  --gray1: #ffffff;
   --error: #ea3323;
 
   --foreground: #fff;

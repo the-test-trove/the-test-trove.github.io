@@ -29,6 +29,7 @@
 
 .appear-third {
   animation-delay: 1.2s;
+  color: #FF0000;
 }
 
 .appear-fourth {
@@ -37,6 +38,7 @@
 
 .appear-fifth {
   animation-delay: 2s;
+  color: black;
 }
 
 .appear-sixth {

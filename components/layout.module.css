@@ -15,7 +15,8 @@
  */
 
 .background {
-  background: #000;
+  /* For changing background color */
+  background: #fff;
   color: #fff;
   min-height: 100vh;
   min-height: var(--100vh);
@@ -91,7 +92,7 @@
   text-transform: uppercase;
   padding: var(--space-4x);
   font-size: 14px;
-  color: var(--secondary-color);
+  color: var(--secondary-color-two);
   font-weight: 700;
   letter-spacing: -0.05em;
   height: 100%;
@@ -103,11 +104,11 @@
 .tab:hover,
 .tab:focus,
 .tab:active {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .tab-active {
-  color: #fff;
+  color: rgb(255, 0, 0);
   background: linear-gradient(90deg, var(--brand), var(--brand)) left bottom transparent no-repeat;
   background-size: 100% 1px;
 }
