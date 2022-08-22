@@ -25,6 +25,8 @@ module.exports = {
       'localhost', // For Strapi
       'raw.githubusercontent.com',
     ],
-    imageSizes: [24, 64, 300]
+    imageSizes: [24, 64, 300],
+    loader: 'imgix',
+    path: '',
   }
 };
