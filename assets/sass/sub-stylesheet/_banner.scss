@@ -1,0 +1,632 @@
+.banner {
+	height: 100vh;
+}
+.banner-left {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @include breakpoint(lg) {
+    	text-align: left;
+	}
+	.banner-lc {
+		@include breakpoint(xl) {
+			max-width: 490px;
+		}
+	}
+}
+.banner-right {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h2 {
+	font-size: $fs-h3;
+	@include breakpoint(md) {
+		font-size: 3.95rem;
+	}
+	@include breakpoint(xxl) {
+		font-size: $fs-h1;
+	}
+}
+.banner-lc {
+	text-align: center;
+	@include breakpoint(xl) {
+    	text-align: left;
+	}
+	.banner-left-content {
+		.btn-defult {
+			margin-top: 40px;
+    		animation: animate 2s linear infinite;
+		}
+	}
+	p {
+		color: $g-ash-color;
+		font-size: 1.125rem;
+		font-weight: 600;
+		margin-bottom: 0;
+		@include breakpoint(lg) {
+			color: $title-color;
+		}
+	}
+}
+.banner-lc-bottom {
+    position: absolute;
+    margin: 0;
+    bottom: 5%;
+    width: 100%;
+    span {
+    	list-style: none;
+		font-weight: 600;
+    	font-size: $fs-h5;
+    	span {
+    	font-size: $fs-h6;
+    	}
+    }
+}
+
+// banner right part
+.banner-rc-bottom {
+	display: none;
+	@include breakpoint(sm) {
+	    position: absolute;
+	    bottom: 5%;
+	    display: flex;
+	    flex-wrap: wrap;
+	    align-items: center;
+	}
+    .banner-rcb-icon {
+    	width: 55px;
+	    height: 55px;
+	    border-radius: 50%;
+	    line-height: 55px;
+	    text-align: center;
+	    background-color: $theme-color;
+	    opacity: .99;
+	    float: left;
+	    margin-right: 20px;
+	    i {
+	    	color: $white-color;
+	    }
+    }
+    p {
+    	color: $white-color;
+    	margin-bottom: 0;
+    }
+}
+
+.bgLayer {
+    text-align: center;
+    width: 80px;
+    height: 00px;
+    position: relative;
+    transform: scale(0.6);
+    float: left;
+    canvas {
+    	position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50% , -50%);
+	    width: 80px;
+	    height: 80px;
+    }
+}
+.topLayer {
+    width: 75px;
+    height: 75px;
+    border: 30px solid $white-color;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clock-list {
+    width: 280px;
+    overflow: hidden;
+}
+.clock-df {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.text {
+    align-items: center;
+    display: flex;
+}
+.val {
+	font-weight: 600;
+	font-size: $fs-h2;
+	color: $white-color;
+	font-family: $font-family-p;
+}
+.time-text {
+	font-family: $font-family-p;
+	font-weight: 400;
+	font-size: $fs-h6;
+	color: $white-color;
+	padding-left: 10px;
+}
+.clock-list:nth-child(1) .bgLayer .topLayer {
+    background-color: $yellow;
+}
+.clock-list:nth-child(2) .bgLayer .topLayer {
+    background-color: $red;
+}
+.clock-list:nth-child(3) .bgLayer .topLayer {
+    background-color: $green;
+}
+.clock-list:nth-child(4) .bgLayer .topLayer {
+    background-color: $green-h;
+}
+.clock-list:nth-child(1) .text .val {
+    color: $yellow;
+}
+.clock-list:nth-child(2) .text .val {
+    color: $red;
+}
+.clock-list:nth-child(3) .text .val {
+    color: $green;
+}
+.clock-list:nth-child(4) .text .val {
+    color: $green-h;
+}
+
+
+// banner df start here
+.banner-df {
+	height: 100vh;
+    background-size: cover;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+	position: relative;
+	@include breakpoint(max-m) {
+		height: 700px;
+
+	}
+	@include breakpoint(xl) {
+		height: 940px;
+	}
+    .banner {
+	    display: flex;
+	    align-items: center;
+	    .banner-lc {
+			z-index: 1;
+			@include breakpoint(max-md) {
+				margin-top: -375px;
+			}
+	    	.btn-defult {
+	    		margin-top: 40px;
+	    		border-radius: 50px;
+	    		box-shadow: 0 4px 15px 1px rgba(253, 61, 107, .50);
+	    		&:hover {
+	    			color: $theme-color !important;
+	    			background: $white-color !important;
+	    		}
+	    	}
+	    }
+    }
+}
+.banner-svg {
+	img {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		left: 0;
+		fill: #fff;
+	}
+}
+.banner-section {
+	// style-3
+	&.style-3 {
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 100vh;
+		position: relative;
+		.banner-content-area {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100%;
+			transform: translateY(-50%) translateX(-50%);
+			.banner-content {
+				text-align: center;
+				h1 {
+					color: $white-color;
+					margin-top: 0;
+					font-size: $fs-h3;
+					@include breakpoint(md) {
+						font-size: $fs-h1;
+					}
+				}
+				span {
+					color: $white-color;
+					line-height: $lh-p;
+				}
+				.banner-search {
+					max-width: 730px;
+					margin: 0 auto;
+					position: relative;
+					input {
+						margin: 0;
+						padding: 24px;
+						border-radius: 50px;
+    					margin-bottom: 40px;
+    					margin-top: 30px;
+					}
+					i {
+						position: absolute;
+						top: 0;
+					    right: 0;
+					    padding: 27px;
+					    color: $dark-color;
+					    font-size: 1.25rem;
+					    cursor: pointer;
+					}
+					.btn-defult {
+						outline: none;
+					    padding: 20px 35px;
+					}
+				}
+			}
+		}
+	}
+	&.style-4 {
+		background: url(../../assets/images/banner/02.png) $white-color;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 100vh;
+		position: relative;
+		overflow: hidden;
+		.overlay {
+			display: none;
+			@include breakpoint(lg) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,.4);
+			}
+		}
+		.video {
+			display: none;
+			@include breakpoint(lg) {
+			    width: 110%;
+			    vertical-align: baseline;
+			    display: inline-block;
+			}
+		}
+		.banner-content-area {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100%;
+			transform: translateY(-50%) translateX(-50%);
+			.banner-content {
+				text-align: center;
+				h5 {
+					color: $white-color;
+					margin-top: 0;
+				}
+				span {
+					color: $white-color;
+					font-size: $fs-h4;
+					font-weight: 600;
+					margin-bottom: 40px;
+					margin-top: 10px;
+					display: block;
+					@include breakpoint(md) {
+						font-size: $fs-h2;
+					}
+					@include breakpoint(lg) {
+						font-size: 3.5rem;
+					}
+				}
+					
+				.btn-defult {
+					outline: none;
+				    padding: 20px 35px;
+				    position: relative;
+				    i {
+					    position: absolute;
+					    top: 50%;
+					    left: 10px;
+					    width: 20px;
+					    height: 20px;
+					    padding: 3px;
+					    color: $theme-color;
+					    background: $white-color;
+					    font-size: $fs-small;
+					    cursor: pointer;
+					    line-height: 13px;
+					    border-radius: 50%;
+					    transform: translateY(-50%);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+// banner bottom slider
+.banner-bottom-sponsors {
+	overflow: hidden;
+	transform: translateY(-130px);
+	@include breakpoint(max-md) {
+		display: none;
+	}
+    img {
+    	text-align: center;
+    	-webkit-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	    margin: 5px;
+	    &:hover {
+	    	-webkit-filter: grayscale(0%);
+    		filter: grayscale(0%);
+	    }
+    }
+}
+
+
+
+
+
+// conferench countdown 
+.conferench-section {
+	position: relative;
+	overflow: hidden;
+    padding: 0;
+	padding-top: 40px;
+	z-index: 1;
+	.conferench-area {
+		@include breakpoint(xl) {
+		    position: absolute;
+		    width: 100%;
+		    z-index: 1;
+		}
+		.conferench-counter {
+			background: url(../../assets/images/banner/bgc.png);
+            box-shadow: 0px 12px 45px 0px rgba(6, 22, 58, 0.24);
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		    align-items: center;
+		    border-radius: 12px;
+    		padding: 60px 0;
+    		@include breakpoint(md) {
+	        	box-shadow: 0px 24px 60px 0px rgba(6, 22, 58, 0.24);
+    		}
+		    .conferench-bcl {
+		    	width: 100%;
+	    	    padding: 0px 40px;
+				text-align: center;
+				position: relative;
+				padding-top: 15px;
+				@include breakpoint(lg) {
+	    			text-align: left;
+	    			width: 40%;
+	    	    	padding: 0px 60px;
+	    			padding-top: 0;
+	    		}
+	    		&::before {
+	    			position: absolute;
+	    			content: "";
+	    			top: 0;
+	    			left: 0;
+	    			width: 1px;
+	    			height: 100%;
+	    			background: $border-color;
+	    		}
+		    	h3 {
+		    		text-transform: capitalize;
+		    		margin-top: 0;
+		    	}
+		    	p {
+		    		max-width: 400px;
+		    		color: $desc-color;
+		    		margin: auto;
+		    		line-height: $lh-p;
+		    		@include breakpoint(lg) {
+		    			margin: 0;
+		    		}
+		    	}
+		    	.btn-defult {
+		    		margin-top: 30px;
+    		        padding: 15px 29px;
+	    		    background: transparent;
+				    color: $theme-color;
+				    border: 2px solid $theme-color;
+		    		&:hover {
+		    			background: $theme-color;
+		    			color: $white-color;
+		    		}
+		    	}
+		    }
+			.conferench-bcr {
+				width: 100%;
+				padding-bottom: 15px;
+				text-align: center;
+				@include breakpoint(lg) {
+					width: 60%;
+					padding-bottom: 0
+				}
+				.countdown  {
+					justify-content: space-evenly;
+					margin: 0;
+					li {
+						list-style: none;
+						font-weight: 600;
+						font-size: 3.75rem;
+						margin: 0 32px;
+						padding-top: 0;
+						position: relative;
+						&::after {
+							@include breakpoint(sm) {
+								position: absolute;
+								content: ":";
+								top: 0;
+								right: -40px;
+							    transform: translateY(3px);
+    							font-size: 3rem;
+								color: $border-color;
+							}
+						
+						}
+						p {
+							margin-bottom: 0;
+							text-align: center;
+							text-transform: uppercase;
+							font-size: 1rem;
+							font-weight: 400;
+						}
+					}
+					:nth-child(1) .count-number{
+						color: #d02467;
+					}
+					:nth-child(2) .count-number{
+						color: #f52d3a;
+					}
+					:nth-child(3) .count-number{
+						color: #fe672e;
+					}
+					:nth-child(4) .count-number{
+						color: #febe26;
+					}
+					:nth-child(4)::after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.ticker {
+		font-weight: 600;
+		font-size: 100px;
+		color: $border-color;
+		position: relative;
+		@include breakpoint(xl) {
+			font-size: 242px;
+			margin-top: 180px;
+		}
+		&:after {
+			position: absolute;
+		    content: "";
+		    background-image: url(../../assets/images/pattan.png);
+		    top: 50%;
+		    left: 0;
+		    width: 100%;
+		    height: 75px;
+		    transform: translateY(-50%);
+		}
+	}
+}
+
+
+
+
+
+// event section
+.event-section {
+	padding-top: 0;
+	position: relative;
+	overflow: hidden;
+	.section-header {
+		h2{
+			margin-top: 0;
+		}
+		p {
+			font-weight: 400;
+			color: $name-dec;
+			font-size: 1.25rem;
+			margin-bottom: 0;
+		}
+	}
+	.section-wrapper {
+		position: relative;
+		&::after {
+	        position: absolute;
+		    content: "";
+		    top: 30px;
+		    left: -180px;
+		    background: url(../../assets/images/event/pattan.png);
+		    width: 100%;
+		    height: 100%;
+		    background-repeat: no-repeat;
+		}
+		.event-ls {
+			position: relative;
+			z-index: 1;
+			.event-item {
+				padding: 30px 40px;
+		    	box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+		    	margin: 30px 0;
+		    	border-radius: 5px;
+    			background: $white-color;
+		    	@include breakpoint(md) {
+    				// max-width: 480px;
+    			}
+				.event-icon {
+					padding-right: 20px;
+				}
+				.event-content {
+					h6 {
+						margin: 0;
+						font-size: 1.25rem;
+						line-height: 29px;
+					}
+					p {
+						margin-bottom: 0;
+						font-size: $fs-h6;
+					}
+				}
+			}
+		}
+		.event-rs {
+		    img {
+				box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+		    }
+			.mouse-bg {
+				left: 0;
+				right: 0;
+				bottom: 0;
+				top: 0px;
+				position: fixed;
+				:hover {
+					top: 100px;
+				}
+			}
+		}
+	}
+}
+
+// 11-1-19
+.banner-shape {
+	position: absolute;
+    z-index: 1;
+    top: 10%;
+	right: 0;
+	@include breakpoint(max-md) {
+		top: 60%;
+	}
+	@include breakpoint(md) {
+		@include breakpoint(max-xl) {
+			display: none;
+		}
+	}
+}
