@@ -1,0 +1,138 @@
+.footer-section {
+	position: relative;
+	.footer-top {
+	 	background: $white-color;
+		.footer-content {
+			.footer-logo {
+				padding: 10px 0;
+				display: inline-block;
+			}
+			p {
+				color: $name-dec;
+			}
+			.footer-title {
+				h5 {
+					color: $dark-color;
+					padding: 10px 0;
+				}
+			}
+			.footer-link-list {
+				ul {
+					margin: 0;
+					li {
+						list-style: none;
+					    padding: 5px 0;
+					    margin: 2px 0;
+						a {
+							color: $name-dec;
+							display: inline-block;
+							outline: none;
+							transition: all .3s ease;
+							&:hover {
+								color: $theme-color;
+								padding-left: 10px;
+							}
+						}
+					}
+				}
+			}
+			.footer-gellary {
+				.f-gellary-item {
+					width: calc(100% / 3);
+					float: left;
+					.f-gellary-item-inner {
+						margin: 4px;
+						border-radius: 3px;
+						.f-gellary-thumb {
+							display: block;
+							.footer-img {
+								display: block;
+								outline: none;
+								img {
+									display: block;
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+			}
+			.footer-newsletter {
+				input {
+					padding: 19px;
+					border-radius: 3px;
+					background: $ash-color;
+					margin-bottom: 20px;
+					border: none;
+					outline: none;
+					&::placeholder { 
+					    color: $plaseholder;
+					    opacity: 1;
+					}
+
+					&:-ms-input-placeholder { 
+					    color: $plaseholder;
+					}
+
+					&::-ms-input-placeholder {
+					    color: $plaseholder;
+					}
+				}
+				[type="submit"] {
+					width: 100%;
+					padding: 15px 45px;
+					text-transform: uppercase;
+					font-weight: 600;
+					font-size: $fs-small;
+					background: $theme-color;
+					color: $white-color;
+					border-radius: 3px;
+					transition: all .3s ease;
+					&:hover {
+						background: $dark-color;
+					}
+				}
+			}
+		}
+	}
+	.footer-bottom {
+		padding: 23px 0;
+		.copyright {
+			    text-align: center;
+			    padding: 0 15px;
+			    line-height: $lh-p;
+			p {
+				margin-bottom: 0;
+				a {
+					display: inline-block;
+					font-weight: 600;
+					transition: all .3s ease;
+					&:hover {
+						color: $theme-color;
+					}
+				}
+			}
+		}
+		.footer-social {
+			.social-media {
+				margin: 0;
+				li {
+					list-style: none;
+					padding: 0;
+					a {
+						padding: 10px;
+						color: $desc-color;
+						display: inline-block;
+						font-size: 1.25rem;
+						-webkit-transition: all .3s ease;
+				        transition: all .3s ease;
+				        outline: none;
+						&:hover {
+							color: $theme-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
