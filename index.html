@@ -1,443 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>The Test Trove Conference</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 	<meta name="description" content="The Test Trove and the Community Relations initiative">
- 	<meta name="keywords" content="The Test Trove">
-	<meta name="author" content="Adithya Krishna">
-	
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/lightcase.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>The Test Trove Conference</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/T3-T.png" rel="icon">
+  <link href="assets/img/T3-T.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Day
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Updated: May 04 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
-    <!-- preloader start here -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-	<!-- preloader ending here -->
-	
-	<!-- mobile-nav section start here -->
-    <div class="mobile-menu style-2">
-        <nav class="mobile-header primary-menu">
-            <div class="header-logo">
-                <a href="index.html" class="logo"><img src="assets/images/T3-T.png"  width="40px" alt="T3Con"></a>
-            </div>
-            <div class="header-menu">
-                <div class="header-bar" id="open-button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <!-- <a href="https://" target="_blank" rel="noopener noreferrer" class="btn-defult mr-2">T3Con Q4</a> -->
-                <a href="#" target="_blank" rel="noopener noreferrer" class="btn-defult">About T3Con</a>
+<body class="index-page">
 
-            </div>
+  <header id="header" class="header fixed-top">
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/T3-T.png" alt="">
+          <h1 class="sitename">The Test Trove</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#team">Team</a></li>
+       
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <div class="menu-wrap">
-            <div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
-                    <path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
-                </svg>
-            </div>
-            <nav class="menu">
-                <div class="mobile-menu-area">
-                    <div class="mobile-menu-area-inner" id="scrollbar">
-                        <div class="header-bar m-menu-bar">
-                            <a href="index.html" class="logo"><img src="assets/images/T3-T.png" alt="T3Con" width="40px"></a>
-                            <div class="close-button" id="close-button"></div>
-                        </div>
-                        <ul class="m-menu">
-                            <li><a href="#0">Home</a> 
-                            </li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">About</a></li>
+      </div>
 
-                        </ul>
-                        <ul class="social-link-list d-flex flex-wrap">
-                            <li><a href="https://github.com/the-test-trove" target="_blank" rel="noopener noreferrer" class="facebook"><i class=" fab fa-github"></i></a></li>
-                            <li><a href="https://twitter.com/thetesttrove" target="_blank" rel="noopener noreferrer" class="twitter-sm"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/groups/8970766/" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/css/images/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-start">
+          <div class="col-lg-8">
+            <h2 class="">Welcome to The Test Trove Conference</h2>
+            <p>May 30 2024, at 2:00 PM IST</p>
+            <!-- <a href="#about" class="btn-get-started">Get Started</a> -->
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">About Us<br></span>
+        <h2 class="">About Us<br></h2>
+        <p>Create Contribute Collaborate</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about-us.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>The Test Trove and The Community Relations Initiative</h3>
+            <p class="fst-italic">
+              We started with an objective to increase collaboration and share Quality Engineering/ Testing related knowledge among different QE groups. The idea is to have discussions on testing related topics and be able to share our knowledge store with the outside QE community. We are building a community! Currently, we are not just limited to Quality Engineering but open to other topics including
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Developement</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>DevOps</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Collaboration Stories</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Leadership</span></li>
+
+            </ul>
+            <a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+ <!-- Speakers Section -->
+ <section id="speakers" class="team section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span class="">Speakers</span>
+    <h2>Speakers</h2>
+  </div><!-- End Section Title -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="member">
+          <img src="assets/img/speakers/speaker-1.jpeg" class="img-fluid" alt="">
+          <div class="member-content">
+            <h4>Ayushi Midha</h4>
+            <span>Software Enginner</span>
+            <p>
+                Software developer with a deep passion for crafting visually appealing and efficient products that deliver exceptional user experiences. Bringing over three years of experience in designing and developing user-centric products that seamlessly blend aesthetic elegance, optimal performance, and exceptional user satisfaction.            
+            </p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+      <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="member">
+          <img src="assets/img/speakers/speaker-2.jpeg" class="img-fluid" alt="">
+          <div class="member-content">
+            <h4>Shweta  Singh</h4>
+            <span>Software Quality Engineer</span>
+            <p>
+                Work experience of 4 years in automation testing and Agile process. Currently working as a Quality Assurance Engineer in Thales eSecurity working primarily in Python and Selenium based web testing.
+                Experience as overall System Test Engineer focused primarily in automation testing, regression testing, stress testing, system testing and feature testing.            </p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="member">
+          <img src="assets/img/speakers/speaker-3.jpeg" class="img-fluid" alt="">
+          <div class="member-content">
+            <h4>Nikita Patwa</h4>
+            <span>Associate Software Maintenance Engineer</span>
+            <p>
+                I am an Enthusiastic person, with self motivation and also good at leadership skills,
+                have passed the German Beginner Level Examination arranged by Nagpur Institute of Technology.
+            </p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="member">
+          <img src="assets/img/speakers/speaker-4.jpeg" class="img-fluid" alt="">
+          <div class="member-content">
+            <h4>Sagar Mahendrakar</h4>
+            <span>Software Quality Engineer</span>
+            <p>
+                Sagar Mahendrakar is an Software Quality Engineer working with Portal Case Management team. He has almost 5 years of experience in this role. He is passionate about leveraging his skills in scripting, test automation tools and continuous integration practices to drive quality improvements and achieve exceptional user satisfaction. Apart from work, He is an avid traveller.            </p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+
+    </div>
+
+  </div>
+
+</section><!-- /Team Section -->
+
+<section id="schedule" class="section-with-bg">
+
+
+    <div class="container section-title" data-aos="fade-up">
+      <span class="">Schedule</span>
+      <h2>Schedule</h2>
+    </div>
+
+    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for May 30, 2024, at 2:00 PM IST.</h3>
+
+    <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+      <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>02:00 PM</time></div>
+          <div class="col-md-10">
+            <div class="speaker">
+              <img src="assets/img/speakers/profile.png" alt="Swapnil Jadhav">
+            </div>
+            <h4>Introduction and Welcome Note<span>Swapnil Jadhav</span></h4>
+
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>02:10 PM</time></div>
+          <div class="col-md-10">
+            <div class="speaker">
+              <img src="assets/img/speakers/profile.png" alt="Ayushi Midha">
+            </div>
+            <h4>Fortifying the Frontend <span>Ayushi Midha</span></h4>
+            <!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>02:40 PM</time></div>
+          <div class="col-md-10">
+            <div class="speaker">
+              <img src="assets/img/speakers/profile.png" alt="Nikita Patwa">
+            </div>
+            <h4>Incorporating AI approach in Cloud Security <span> Nikita Patwa</span></h4>
+            <!-- <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p> -->
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>03:05 PM</time></div>
+          <div class="col-md-10">
+            <div class="speaker">
+              <img src="assets/img/speakers/profile.png" alt="Shweta Singh">
+            </div>
+            <h4>Katalon: Machine learning based  visual validation tools  <span>Shweta Singh</span></h4>
+            <!-- <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p> -->
+          </div>
+        </div>
+
+        <div class="row schedule-item">
+            <div class="col-md-2"><time>03:35 PM</time></div>
+            <div class="col-md-10">
+              <div class="speaker">
+                <img src="assets/img/speakers/profile.png" alt="Sagar Mahendrakar">
+              </div>
+              <h4>Exploratory Testing Unveiled  <span>Sagar Mahendrakar</span></h4>
+              <!-- <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p> -->
+            </div>
+          </div>
+
+        <div class="row schedule-item">
+          <div class="col-md-2"><time>03:25 PM</time></div>
+          <div class="col-md-10">
+            <div class="speaker">
+              <img src="assets/img/speakers/profile.png" alt="Mohit Gaur">
+            </div>
+            <h4>Closing Note <span>Mohit Gaur</span></h4>
+           
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+      </div>
+</section>
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">Team</span>
+        <h2>Team</h2>
+        <p>If you have any suggestion about how we can improve, please let us know</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/Swapnil.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Swapnil Jadhav</h4>
+                <span>Principal Software Quality Engineer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/noopur.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Noopur Math</h4>
+              <span>Principal Software Quality Engineer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/mohit.jpeg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Mohit Gaur</h4>
+                <span>Software Quality Engineer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/tushar.jpeg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Tushar Sinha</h4>
+                <span>Software Quality Engineer</span>
+                <!-- <p>
+                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+          <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/veer.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Veerkumar Patil</h4>
+                <span>Senior Software Quality Enginner</span>
+                <!-- <p>
+                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">Contact</span>
+        <h2 class="">Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+             <a href="https://github.com/the-test-trove"> <i class="bi bi-github"></i> </a>
+              <h3>The Test Trove</h3>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+            <a  href="mailto:t3-organizers@redhat.com"> <i class="bi bi-envelope"></i> </a>
+              <h3>Email Us</h3>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+       
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-6 col-md-6">
+          <div class="footer-about">
+            <a href="index.html" class="logo sitename">The Test Trove</a>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove">Source Page</a></li>
+            <li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q3_nov_23_2023">Q4 2023</a></li>
+            <li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q3_august_24_2023">Q3 2023</a></li>
+            <li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q2_may_25_2023">Q2 2023</a></li>
+            <li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q4_march_2_2023">Q1 2023</a></li>
+          </ul>
         </div>
     </div>
-	<!-- mobile-nav section ending here -->
 
-	<!-- banner section start here -->
-	<section class="banner-section hidden">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-6">
-					<div class="row">
-						<div class="banner-left banner" style="background-image: url(assets/images/banner/01.jpg)">
-							<div class="banner-lc">
-								<div class="banner-left-content">
-									<p>Mini Test Engineering Conference Q4, 2023</p>
-									<h2>The Test Trove Conference</h2>
-									<a href="#" target="_blank" rel="noopener noreferrer" class="btn-defult">Learn More</a>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">The Test Trove</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+      </div>
+    </div>
 
-								</div>
-								<div class="banner-lc-bottom">
-		                            <span>November 23<sup>th</sup> <span>at</span> 2:00 pm IST</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="row">
-						<div class="banner-right banner" style="background-image: url(assets/images/testing-2.jpg)">
-							<div class="banner-right-content">
-                                <div id="countdown" class="countdown count-down" data-date="November 23, 2023 14:00:00">
-                                    <div class="clock-list">
-                                        <div class="clock-days clock-df">
-                                            <div class="bgLayer">
-                                                <div class="topLayer"></div>
-                                                <canvas class="canvas_days" width="110" height="110">
-                                                </canvas>
-                                            </div>
-                                            <div class="text">
-                                                <span class="val days">2</span>
-                                                <span class="time-text">Days</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="clock-list">
-                                        <div class="clock-hours clock-df">
-                                            <div class="bgLayer">
-                                                <div class="topLayer"></div>
-                                                <canvas class="canvas_hours" width="110" height="110">
-                                                </canvas>
-                                            </div>
-                                            <div class="text">
-                                                <span class="val hours">10</span>
-                                                <span class="time-text">Hours</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="clock-list">
-                                        <div class="clock-minutes clock-df">
-                                            <div class="bgLayer">
-                                                <div class="topLayer"></div>
-                                                <canvas class="canvas_minutes" width="110" height="110">
-                                                </canvas>
-                                            </div>
-                                            <div class="text">
-                                                <span class="val minutes">20</span>
-                                                <span class="time-text">Minutes</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="clock-list">
-                                        <div class="clock-seconds clock-df">
-                                            <div class="bgLayer">
-                                                <div class="topLayer"></div>
-                                                <canvas class="canvas_seconds" width="110" height="110">
-                                                </canvas>
-                                            </div>
-                                            <div class="text">
-                                                <span class="val seconds">30</span>
-                                                <span class="time-text">Seconds</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-							</div>
-							<div class="banner-rc-bottom">
-                                <p class="mr-3">View the Schedule Here</p>
-	                            <div class="banner-rcb-icon pulse">
-	                                <a href="#" target="_blank" rel="noopener noreferrer">
+  </footer>
 
-                                        <i class="fa fa-calendar"></i>
-                                    </a>
-                                    
-	                            </div>
-	                        </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- banner section ending here -->
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-	<!-- about section start here -->
-	<section class="about-section style-1 padding-tb" style="background-image: url(assets/images/about/bg.png)">
-		<div class="container container-1310">
-			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="format-video wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-						<img src="assets/images/testing.jpg" alt="About T3Con" style="border-radius: 10px;">
-						<!-- <a  class="icon" href="https://www.youtube.com/embed/tnxBWV3DN4k" data-rel="lightcase" title="Watch Now"><i class="fa fa-play"></i></a> -->
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about-content wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-						<div class="about-contant-inner">
-							<span>About Event</span>
-							<h2>The Test Trove and The Community Relations Initiative</h2>
-							<p>We started with an <strong>objective</strong> to increase collaboration and share Quality Engineering/ Testing related knowledge among different QE groups.</p>
-                            <p>The idea is to have discussions on testing related topics and be able to share our knowledge store with the outside QE community. <strong>We are building a community!</strong></p>
-                            <p>Currently, we are not just limited to Quality Engineering but open to other topics including Development, DevOps, Collaboration stories and Leadership.</p>
-							<a href="#" class="btn-defult" target="_blank" rel="noopener noreferrer">Learn More</a>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="about-counter feature-rsb d-md-flex">
-				<div class="rsb-list wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-					<!-- <div class="rsb-icon"><img src="assets/images/counter-up/01.png" alt="counter-up"></div> -->
-					<span class="counter">5</span>
-					<p><span>Speakers</span> will Perform the Event</p>
-				</div>
-				<div class="rsb-list wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-					<!-- <div class="rsb-icon"><img src="assets/images/counter-up/02.png" alt="counter-up"></div> -->
-					<span class="counter">5</span><span class="plus-icon">+</span>
-					<p><span>Topics</span> will be Discussed</p>
-				</div>
-				<div class="rsb-list wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-					<!-- <div class="rsb-icon"><img src="assets/images/counter-up/03.png" alt="counter-up"></div> -->
-					<span class="counter">200</span><span class="plus-icon">+</span>
-					<p><span>People</span> Attended Last Quarter</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- about section ending here -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
 
-	<!-- speaker section start here -->
-	<section class="speaker-section style-1 style-2 padding-tb">
-        <div class="container container-1310">
-                <div class="absolute-text">Speaker</div>
-            <div class="section-header wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                <h2>Event Speakers</h2>
-                <p>Where Quality Meets Content</p>
-            </div>
-            <div class="section-wrapper d-flex flex-wrap justify-content-lg-center">
-                <div class="speaker-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                    <div class="speaker-item-inner">
-                        <div class="item-thumb">
-                            <img src="assets/images/speaker/Speaker-1.jpeg" alt="Mohit Gaur" class="speaker-image-resize">
-			    <div class="item-overlay"></div>
-                             <div class="social-profile">
-                                <div class="icon linkedin">
-                                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-content">
-                            <span class="name">Mohit Gaur</span>
-                            <p>Software Quality Engineer</p>
-                        </div>
-                    </div>
-                </div>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-                <div class="speaker-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                    <div class="speaker-item-inner">
-                        <div class="item-thumb">
-                            <img src="assets/images/speaker/Speaker-2.png" alt="Vidya Iyengar" class="speaker-image-resize">
-			    <div class="item-overlay"></div>
-			     <div class="social-profile">
-                                <div class="icon linkedin">
-                                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-content">
-                            <a href="#" class="name">Vidya Iyengar</a>
-                            <p>Content Strategist</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="speaker-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="speaker-item-inner">
-                        <div class="item-thumb">
-                            <img src="assets/images/speaker/Speaker-3.jpeg" alt="Yash Ajgaonkar" class="speaker-image-resize">
-			    <div class="item-overlay"></div>
-				 <div class="social-profile">
-                                <div class="icon linkedin">
-                                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-content">
-                            <a href="#" class="name">Yash Ajgaonkar</a>
-                            <p>Software Engineer - Quality</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="speaker-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                    <div class="speaker-item-inner">
-                        <div class="item-thumb">
-                            <img src="assets/images/speaker/Speaker-4.png" alt="Subhashree Mishra" class="speaker-image-resize">
-			    <div class="item-overlay"></div>
-			     <div class="social-profile">
-                                <div class="icon linkedin">
-                                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-content">
-                            <a href="#" class="name">Subhashree Mishra</a>
-                            <p>Associate Software Quality Engineering</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-	<!-- speaker section ending here -->
-
-	<!-- event schedule section start here -->
-	<section class="event-schedule style-2 bg-ash padding-tb">
-		<div class="container container-1310">
-			<div class="section-header wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-				<p>30+ Exclussive Event Agendas</p>
-				<h2>Event Schedule</h2>
-			</div>
-			<div class="section-wrapper row">
-				<div class="col-12 col-lg-12">
-					<div class="am">
-						<div class="schedule-title wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
-							<h6>Schedule</h6>
-						</div>
-						<ul class="schedule-content">
-							<li class="schedule-list wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
-								<div class="time">02:00 PM IST</div>
-								<div class="esto"></div>
-								<div class="details">Introduction and Welcome Note - Noopur Math</div>
-							</li>
-							<li class="schedule-list wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-								<div class="time">02:10-02:40 PM IST</div>
-								<div class="esto"></div>
-								<div class="details">Optimizing Customer Self Solve: Building a Robust Search Relevance Evaluation Pipeline - Mohit Gaur</div>
-							</li>
-							<li class="schedule-list wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-								<div class="time">02:40-02:55 PM IST</div>
-								<div class="esto"></div>
-								<div class="details">Unlocking the Power of Red Hat Content: A Journey Through Content Types - Vidya Iyengar</div>
-							</li>
-                           				<li class="schedule-list wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
-								<div class="time">02:55-03:25 PM IST</div>
-								<div class="esto"></div>
-								<div class="details">Making UI Testing easier with Widgetastic - A python library - Yash Ajgaonkar and Subhashree Mishra</div>
-							</li>
-                            				<li class="schedule-list wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-								<div class="time">03:25-03:30 PM IST</div>
-								<div class="esto"></div>
-								<div class="details">Closing Note - Anisha Narang</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
-	<!-- event schedule section ending here -->
-    
-    <!-- map section start here -->
-    <!-- <section id="gmaps" class="gmap-section style-1">
-		<div class="maps-title">
-        	<div class="container container-1310">
-                <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">Event Direction & Info</h2>
-            </div>
-        </div>
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2275990948147!2d90.38698831543141!3d23.739261895117753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85c740f17d1%3A0xdd3daab8c90eb11f!2sCodexCoder!5e0!3m2!1sen!2sbd!4v1601792708245!5m2!1sen!2sbd" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </section> -->
-    <!-- map section ending here -->
-
-    <!-- contact section -->
-    <section class="contact-section padding-tb bg-ash">
-        <div class="container container-1310">
-            <div class="section-header wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                <h2>Leave A Comment</h2>
-                <p class="mb-5">If you have any suggestion about how we can improve, please let us know :)</p>
-                <span>Write to us at <span style="color: red;">swjadhav[at]redhat[dot]com</span> or <span style="color: red;">adikrish[at]redhat[dot]com</span></span>
-            </div>
-        </div>
-    </section>
-    <!-- end contact section -->
-
-    <!-- footer section start here -->
-    <section class="footer-section">
-    	<div class="top"><a href="#" class="scrollToTop"><i class="fas fa-angle-up"></i></a></div>
-    	<div class="footer-top padding-tb">
-	    	<div class="container container-1310">
-	    		<div class="row">
-	    			<div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-	    				<div class="footer-content">
-	    					<a href="#" class="footer-logo"><img src="assets/images/T3-T.png" alt="T3Con Logo" width="15%"></a>
-	    					<p>T3Con (The Test Trove Conference) would provide a platform for participants to share their ideas and knowledge with everyone.</p>
-	    				</div>
-	    			</div>
-	    			<div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-	    				<div class="footer-content">
-	    					<div class="footer-title">
-	    						<h5>Useful Links</h5>
-	    					</div>
-	    					<div class="footer-link-list">
-	    						<ul>
-	    							<li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove" target="_blank" rel="noopener noreferrer">- The T3Con Source Page</a></li>
-								<li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q3_nov_23_2023" target="_blank" rel="noopener noreferrer">- T3Con Q4 2023</a></li>
-								<li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q3_august_24_2023" target="_blank" rel="noopener noreferrer">- T3Con Q3 2023</a></li>
-								<li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q2_may_25_2023" target="_blank" rel="noopener noreferrer">- T3Con Q2 2023</a></li>
-								<li><a href="https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q4_march_2_2023" target="_blank" rel="noopener noreferrer">- T3Con Q1 2023</a></li>
-	    						</ul>
-	    					</div>
-	    				</div>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <div class="footer-bottom bg-ash">
-	    	<div class="container container-1310">
-	    		<div class="row justify-content-lg-between justify-content-center align-items-center">
-	    			<div class="copyright wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-	    				<p>&copy; Copyleft 2022 | Made with &#10084; by The T3Con Team</p>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-    </section>
-    <!-- footer section ending here -->
-
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/snap.svg-min.js"></script>
-    <script src="assets/js/classie.js"></script>
-    <script src="assets/js/main3.js"></script>
-  	<script src="assets/js/bootstrap.min.js"></script>
-  	<script src="assets/js/fontawesome.min.js"></script>
-  	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src='assets/js/jquery.easing.js'></script> 
-  	<script src="assets/js/parallax.min.js"></script>
-  	<script src="assets/js/swiper.min.js"></script>
-  	<script src="assets/js/lightcase.js"></script>
-  	<script src="assets/js/jquery.countdown.min.js"></script>
-  	<script src="assets/js/jQuery.scrollSpeed.js"></script>
-  	<script src="assets/js/jquery.jticker.min.js"></script>
-  	<script src="assets/js/waypoints.min.js"></script>
-  	<script src="assets/js/isotope.pkgd.min.js"></script>
-  	<script src="assets/js/functions.js"></script>
-  	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/theia-sticky-sidebar.js"></script>
 </body>
+
 </html>
