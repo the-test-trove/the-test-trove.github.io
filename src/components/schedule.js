@@ -90,7 +90,7 @@ export function setupSchedule(element) {
       <h2>Schedule</h2>
     </div>
 
-    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for August 22, 2024, at 2:00 PM IST.</h3>
+    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for February 20 2025, at 2:00 PM IST.</h3>
 
     <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
       <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">
