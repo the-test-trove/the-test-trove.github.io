@@ -60,7 +60,7 @@ const scheduleItems = [
     time: '03:55 PM to 04:00 PM',
     speaker: {
       name: 'Veerkumar Patil ',
-      image: 'assets/img/team/tushar.jpg',
+      image: 'assets/img/team/veer.jpg',
     },
     title: 'Closing Note',
   },
