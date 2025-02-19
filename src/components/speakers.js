@@ -1,57 +1,35 @@
 const speakers = [
   {
-    name: 'Otavio Piske',
+    name: 'Sagar Aivale',
     jobTitle: 'Principal Software Engineer',
-    description: `Otavio is a Principal Software Engineer at 
-    RedHat's Hybrid Integration Team where he works developing 
-    solutions for micro-services, cloud and integration. He has been 
-    involved with messaging and integration technologies for the 
-    last 17 years. He is a committer and a member 
-    of the Apache Camel PMC.`,
-    image: 'assets/img/speakers/speaker-1.jpeg',
+    description: `I am Sagar Aivale, currently working as Senior Data Engineer with the UXE DATA Foundations team, previously a Senior Software Engineer for the Rules Acceleration and Automation team. With over 7+ years at RedHat, I enjoy collaborating with fellow Red Hat colleagues and learning about their work. Outside of work, I love spending time with friends and family.`,
+    image: 'assets/img/speakers/speaker-2.jpeg',
   },
   {
-    name: 'Faisal Al-Rayes',
+    name: 'Saurav Chandra',
     jobTitle: 'Software Engineer',
-    description: `As a dedicated Software Engineer at Red Hat, 
-    I specialise in Python, containers, and container orchestration. 
-    My passion spans across many technologies including 
-    Linux, Git, OpenShift, CI/CD solutions, etc. This enables 
-    me to gain more comfort within complex environments, and 
-    implementations/solutions. Before joining Red Hat, I 
-    honed my skills at a Volkswagen Group company, where I 
-    worked as a software developer. In that role, I 
-    contributed to various projects, leveraging my technical 
-    proficiency to develop software that enhances efficiency 
-    of the company workflow and make tester's life easier.
-    With a strong foundation in software development and a 
-    passion for open-source technologies, I am committed to 
-    driving innovation and efficiency in every project I 
-    undertake to the best of my abilities.`,
+    description: `Software Engineer passionate about automation and optimisation, with expertise in CI/CD, cloud-native applications, and AI/ML.`,
+    image: 'assets/img/speakers/speaker-5.JPG',
+  },
+  {
+    name: 'Riya Malushte',
+    jobTitle: 'Software Quality Engineer',
+    description: `I am a dedicated Quality Engineer. I have been working with Red Hat for the past 4 years.`,
     image: 'assets/img/speakers/speaker-3.jpeg',
   },
   {
-    name: 'Minal Sharma',
-    jobTitle: 'Software Quality Engineer',
-    description: ` Hi, I am Minal Sharma, currently working as a 
-    Software Quality Engineer with Digital Acceleration Team (DAT). 
-    I have a total of 6 years of experience in the IT industry . Earlier, 
-    I have worked on technologies like Robot Framework, Selenium WebDriver 
-    with Java and currently honing my skills in PHPUnit, a popular testing 
-    framework in the PHP world. Apart from my professional life, I'm a 
-    huge sports enthusiast. Sports, in general, have always 
-    captivated me, and I enjoy staying active and fit through various 
-    activities. One aspect that defines me is my love for challenges. I am 
-    always on the lookout for new opportunities to stretch my abilities. `,
-    image: 'assets/img/speakers/speaker-4.jpeg',
+    name: 'Hrithik Gavankar',
+    jobTitle: 'Software Engineer',
+    description: ` Hrithik is a Software Engineer specializing in web development, system design, and API architecture. With expertise in React, Node.js, and GraphQL, has built scalable and high-performance applications.
+Passionate about problem-solving and modern web technologies, Hrithik contributes through tech blogs, open-source projects, and speaking engagements.
+ `,
+    image: 'assets/img/speakers/speaker-1.jpeg',
   },
   {
-    name: 'Benny Powers',
+    name: 'Naresh Jupalle',
     jobTitle: 'Principal UX Engineer',
-    description: `Involved with Free Software since the early 2000s, 
-    Benny joined Red Hat in 2022. He now works on design systems and 
-    web components in the experience engineering organization.`,
-    image: 'assets/img/speakers/2.jpeg',
+    description: `I am Naresh, a skilled Front-End Engineer at Red Hat with over five years of experience in building modern web applications. I specialize in HTML, CSS3, SCSS, Bootstrap, JavaScript, TypeScript, Angular, and Vue.`,
+    image: 'assets/img/speakers/speaker-4.jpeg',
   },
 ];
 

@@ -2,56 +2,64 @@ const scheduleItems = [
   {
     time: '02:00 PM to 02:10 PM',
     speaker: {
-      name: 'Noopur Math',
-      image: 'assets/img/team/noopur.jpg',
+      name: 'Tushar Sinha',
+      image: 'assets/img/team/tushar.jpg',
     },
     title: 'Introduction and Welcome Note',
   },
   {
-    time: '',
+    time: '2:10 PM to 02:40 PM',
     speaker: {
-      name: 'Otavio Piske',
+      name: 'Hrithik Gavankar',
       image: 'assets/img/speakers/speaker-1.jpeg',
     },
-    title: 'Do androids dream of robotic Camels?',
+    title: 'Real-Time Collaborative Systems with CRDTs',
   },
   {
-    time: '02:40 PM to 03:10 PM',
+    time: '02:40 PM to 02:55 PM',
     speaker: {
-      name: 'Benny Powers',
-      image: 'assets/img/speakers/2.jpeg',
+      name: 'Riya Malushte',
+      image: 'assets/img/speakers/speaker-3.jpeg',
     },
     title:
-      'Semantic component testing: an alternative to Visual Regression that puts Usability first',
+      'Bridging the Gap: Efficient Model Testing with Postman',
   },
   {
-    time: '03:10 PM to 03:20 PM',
+    time: '02:55 PM to 03:10 PM',
     speaker: {
-      name: 'Shweta Singh',
+      name: 'Break',
       image: 'assets/img/speakers/profile.png',
     },
     title: 'Break',
   },
   {
-    time: '03:20 PM to 03:35 PM',
+    time: '03:10 PM to 03:40 PM',
     speaker: {
-      name: 'Faisal Al-Rayes',
-      image: 'assets/img/speakers/speaker-3.jpeg',
+      name: 'Sagar Aivale',
+      image: 'assets/img/speakers/speaker-2.jpeg',
     },
-    title: 'Commit messages as a long term investment',
+    title: 'Automating Release Management with Tekton Pipeline',
   },
   {
-    time: '03:35 PM to 03:50 PM',
+    time: '03:10 PM to 03:40 PM',
     speaker: {
-      name: 'Minal Sharma',
+      name: 'Saurabh Chandra',
+      image: 'assets/img/speakers/speaker-5.JPG',
+    },
+    title: 'Automating Release Management with Tekton Pipeline',
+  },
+  {
+    time: '03:40 PM to 03:55 PM',
+    speaker: {
+      name: 'Naresh Jupalle',
       image: 'assets/img/speakers/speaker-4.jpeg',
     },
-    title: 'Publishing Your First NPM Package',
+    title: 'Web Components: Build Once, Reuse Everywhere! ',
   },
   {
-    time: '03:50 PM to 04:00 PM',
+    time: '03:55 PM to 04:00 PM',
     speaker: {
-      name: 'Tushar Sinha',
+      name: 'Veerkumar Patil ',
       image: 'assets/img/team/tushar.jpg',
     },
     title: 'Closing Note',
