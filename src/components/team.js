@@ -19,13 +19,13 @@ const teamMembers = [
   },
   {
     name: "Tushar Sinha",
-    title: "Software Quality Engineer",
+    title: "Senior Software Quality Enginne",
     image: "assets/img/team/tushar.jpg",
     delay: "300"
   },
   {
     name: "Veerkumar Patil",
-    title: "Senior Software Quality Enginner",
+    title: "Principal Software Quality Engineer",
     image: "assets/img/team/veer.jpg",
     delay: "300"
   }

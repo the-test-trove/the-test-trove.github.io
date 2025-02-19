@@ -27,7 +27,7 @@ Passionate about problem-solving and modern web technologies, Hrithik contribute
   },
   {
     name: 'Naresh Jupalle',
-    jobTitle: 'Principal UX Engineer',
+    jobTitle: 'Software Engineer',
     description: `I am Naresh, a skilled Front-End Engineer at Red Hat with over five years of experience in building modern web applications. I specialize in HTML, CSS3, SCSS, Bootstrap, JavaScript, TypeScript, Angular, and Vue.`,
     image: 'assets/img/speakers/speaker-4.jpeg',
   },
