@@ -1,17 +1,16 @@
 const speakers = [
-   {
-    name: 'Gaurav Kamathe',
-    jobTitle: 'Associate Manager ,Engineering',
-    description: `Seasoned Software Engineering professional.Primary interests are Security, Linux, Malware.Loves working on the command-line.Interested in low-level software and understanding how things work`,
-    image: 'assets/img/speakers/speaker-2.jpg',
-  },
-    {
+  {
     name: 'Hridayesh Sharma',
     jobTitle: 'Software Engineer',
     description: `Hridayesh Sharma is a software engineer working in digital engineering. He has been working in frontend for over 6 years.`,
     image: 'assets/img/speakers/speaker-1.jpeg',
   },
-
+  {
+    name: 'Gaurav Kamathe',
+    jobTitle: 'Associate Manager ,Engineering',
+    description: `Seasoned Software Engineering professional.Primary interests are Security, Linux, Malware.Loves working on the command-line.Interested in low-level software and understanding how things work`,
+    image: 'assets/img/speakers/speaker-2.jpg',
+  },
   {
     name: 'Chetna Agrawal',
     jobTitle: 'Associate Manager, Software Engineering',
@@ -27,7 +26,7 @@ With 4+ years of experience in software Development, Quality engineering and mai
 Beyond my technical expertise, I am deeply passionate about community engagement, knowledge sharing, and social impact. I have actively: Presented at events, sharing insights on tech contributions beyond coding.Volunteered for multiple initiatives, including sewing blankets for undeserved communities and distributing solar lamps.Supported Industrial Visits, guiding students on career paths in open source and emerging technologies.`,
     image: 'assets/img/speakers/speaker-4.jpg',
   },
-   
+
 ];
 
 function speakerHTML(speaker) {
