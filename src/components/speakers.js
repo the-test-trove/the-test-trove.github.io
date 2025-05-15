@@ -1,21 +1,21 @@
 const speakers = [
-  {
-    name: 'Hridayesh Sharma',
-    jobTitle: 'Software Engineer',
-    description: `Hridayesh Sharma is a software engineer working in digital engineering. He has been working in frontend for over 6 years.`,
-    image: 'assets/img/speakers/speaker-1.jpeg',
-  },
-  {
+   {
     name: 'Gaurav Kamathe',
     jobTitle: 'Associate Manager ,Engineering',
     description: `Seasoned Software Engineering professional.Primary interests are Security, Linux, Malware.Loves working on the command-line.Interested in low-level software and understanding how things work`,
     image: 'assets/img/speakers/speaker-2.jpg',
   },
+    {
+    name: 'Hridayesh Sharma',
+    jobTitle: 'Software Engineer',
+    description: `Hridayesh Sharma is a software engineer working in digital engineering. He has been working in frontend for over 6 years.`,
+    image: 'assets/img/speakers/speaker-1.jpeg',
+  },
+
   {
     name: 'Chetna Agrawal',
     jobTitle: 'Associate Manager, Software Engineering',
-    description: ` Hrithik is a Software Engineer specializing in web development, system design, and API architecture. With expertise in React, Node.js, and GraphQL, has built scalable and high-performance applications.
-Passionate about problem-solving and modern web technologies, Hrithik contributes through tech blogs, open-source projects, and speaking engagements.
+    description: ` Hi, I’m Chetna Agrawal, an Associate Engineering Manager at Red Hat,  leading the Ansible Networking content Team where we work on developing solutions for our partners to manage and automate their network usecase.  I’ve designed and automated a wide range of cloud storage and virtualization use cases, focusing on enterprise software solutions in past. In addition to my technical expertise, I’m also an artist at heart. I enjoy painting and am a passionate comic book reader, constantly finding inspiration at the intersection of creativity and technology.
  `,
     image: 'assets/img/speakers/speaker-3.jpeg',
   },
@@ -27,6 +27,7 @@ With 4+ years of experience in software Development, Quality engineering and mai
 Beyond my technical expertise, I am deeply passionate about community engagement, knowledge sharing, and social impact. I have actively: Presented at events, sharing insights on tech contributions beyond coding.Volunteered for multiple initiatives, including sewing blankets for undeserved communities and distributing solar lamps.Supported Industrial Visits, guiding students on career paths in open source and emerging technologies.`,
     image: 'assets/img/speakers/speaker-4.jpg',
   },
+   
 ];
 
 function speakerHTML(speaker) {
