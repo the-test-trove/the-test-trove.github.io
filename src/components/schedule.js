@@ -3,26 +3,26 @@ const scheduleItems = [
     time: '02:00 PM to 02:10 PM',
     speaker: {
       name: 'Tushar Sinha',
-      image: 'assets/img/team/tushar.jpg',
+      image: 'assets/img/team/mohit.jpg',
     },
     title: 'Introduction and Welcome Note',
   },
   {
     time: '2:10 PM to 02:40 PM',
     speaker: {
-      name: 'Hrithik Gavankar',
+      name: 'Hridayesh Sharm',
       image: 'assets/img/speakers/speaker-1.jpeg',
     },
-    title: 'Real-Time Collaborative Systems with CRDTs',
+    title: 'Web Performance Best Practices: Core Web Vital',
   },
   {
     time: '02:40 PM to 02:55 PM',
     speaker: {
-      name: 'Riya Malushte',
-      image: 'assets/img/speakers/speaker-3.jpeg',
+      name: 'Panga Niharika',
+      image: 'assets/img/speakers/speaker-4.jpg',
     },
     title:
-      'Bridging the Gap: Efficient Model Testing with Postman',
+      'Quality Unlocked: The Power of Cross-Team Collaboration in Product Success',
   },
   {
     time: '02:55 PM to 03:10 PM',
@@ -36,31 +36,23 @@ const scheduleItems = [
     time: '03:10 PM to 03:40 PM',
     speaker: {
       name: 'Sagar Aivale',
-      image: 'assets/img/speakers/speaker-2.jpeg',
+      image: 'assets/img/speakers/speaker-2.jpg',
     },
-    title: 'Automating Release Management with Tekton Pipeline',
-  },
-  {
-    time: '03:10 PM to 03:40 PM',
-    speaker: {
-      name: 'Saurabh Chandra',
-      image: 'assets/img/speakers/speaker-5.JPG',
-    },
-    title: 'Automating Release Management with Tekton Pipeline',
+    title: 'The future of AI is Cloud Native',
   },
   {
     time: '03:40 PM to 03:55 PM',
     speaker: {
-      name: 'Naresh Jupalle',
-      image: 'assets/img/speakers/speaker-4.jpeg',
+      name: 'Chetna Agrawal',
+      image: 'assets/img/speakers/speaker-3.jpeg',
     },
-    title: 'Web Components: Build Once, Reuse Everywhere! ',
+    title: 'First-Time Manager Unfiltered: Real Talk, Lessons Learned and Tips',
   },
   {
     time: '03:55 PM to 04:00 PM',
     speaker: {
-      name: 'Veerkumar Patil ',
-      image: 'assets/img/team/veer.jpg',
+      name: 'Tushar Sinha ',
+      image: 'assets/img/team/tushar.jpg',
     },
     title: 'Closing Note',
   },
@@ -90,7 +82,7 @@ export function setupSchedule(element) {
       <h2>Schedule</h2>
     </div>
 
-    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for February 20 2025, at 2:00 PM IST.</h3>
+    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for May 22 2025, at 2:00 PM IST.</h3>
 
     <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
       <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">

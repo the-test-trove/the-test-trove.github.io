@@ -1,4 +1,4 @@
-const eventTime = `February 20 2025, at 2:00 PM IST`;
+const eventTime = `May 22 2025, at 2:00 PM IST`;
 
 export function setupHero(element) {
   element.innerHTML = `

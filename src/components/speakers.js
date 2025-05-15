@@ -1,35 +1,31 @@
 const speakers = [
   {
-    name: 'Sagar Aivale',
-    jobTitle: 'Principal Software Engineer',
-    description: `I am Sagar Aivale, currently working as Senior Data Engineer with the UXE DATA Foundations team, previously a Senior Software Engineer for the Rules Acceleration and Automation team. With over 7+ years at RedHat, I enjoy collaborating with fellow Red Hat colleagues and learning about their work. Outside of work, I love spending time with friends and family.`,
-    image: 'assets/img/speakers/speaker-2.jpeg',
-  },
-  {
-    name: 'Saurav Chandra',
+    name: 'Hridayesh Sharma',
     jobTitle: 'Software Engineer',
-    description: `Software Engineer passionate about automation and optimisation, with expertise in CI/CD, cloud-native applications, and AI/ML.`,
-    image: 'assets/img/speakers/speaker-5.JPG',
-  },
-  {
-    name: 'Riya Malushte',
-    jobTitle: 'Software Quality Engineer',
-    description: `I am a dedicated Quality Engineer. I have been working with Red Hat for the past 4 years.`,
-    image: 'assets/img/speakers/speaker-3.jpeg',
-  },
-  {
-    name: 'Hrithik Gavankar',
-    jobTitle: 'Software Engineer',
-    description: ` Hrithik is a Software Engineer specializing in web development, system design, and API architecture. With expertise in React, Node.js, and GraphQL, has built scalable and high-performance applications.
-Passionate about problem-solving and modern web technologies, Hrithik contributes through tech blogs, open-source projects, and speaking engagements.
- `,
+    description: `Hridayesh Sharma is a software engineer working in digital engineering. He has been working in frontend for over 6 years.`,
     image: 'assets/img/speakers/speaker-1.jpeg',
   },
   {
-    name: 'Naresh Jupalle',
-    jobTitle: 'Software Engineer',
-    description: `I am Naresh, a skilled Front-End Engineer at Red Hat with over five years of experience in building modern web applications. I specialize in HTML, CSS3, SCSS, Bootstrap, JavaScript, TypeScript, Angular, and Vue.`,
-    image: 'assets/img/speakers/speaker-4.jpeg',
+    name: 'Gaurav Kamathe',
+    jobTitle: 'Associate Manager ,Engineering',
+    description: `Seasoned Software Engineering professional.Primary interests are Security, Linux, Malware.Loves working on the command-line.Interested in low-level software and understanding how things work`,
+    image: 'assets/img/speakers/speaker-2.jpg',
+  },
+  {
+    name: 'Chetna Agrawal',
+    jobTitle: 'Associate Manager, Software Engineering',
+    description: ` Hrithik is a Software Engineer specializing in web development, system design, and API architecture. With expertise in React, Node.js, and GraphQL, has built scalable and high-performance applications.
+Passionate about problem-solving and modern web technologies, Hrithik contributes through tech blogs, open-source projects, and speaking engagements.
+ `,
+    image: 'assets/img/speakers/speaker-3.jpeg',
+  },
+  {
+    name: 'Panga Niharika',
+    jobTitle: 'Associate Software Maintenance Engineer',
+    description: `Panga Niharika – Associate Software Maintenance Engineer | Quality Tester | Community Contributor
+With 4+ years of experience in software Development, Quality engineering and maintenance, I currently work at Red Hat as a Associate Software Maintenance Engineer in the Sustaining Engineering team. My role involves ensuring high-quality software solutions and debugging complex issues.
+Beyond my technical expertise, I am deeply passionate about community engagement, knowledge sharing, and social impact. I have actively: Presented at events, sharing insights on tech contributions beyond coding.Volunteered for multiple initiatives, including sewing blankets for undeserved communities and distributing solar lamps.Supported Industrial Visits, guiding students on career paths in open source and emerging technologies.`,
+    image: 'assets/img/speakers/speaker-4.jpg',
   },
 ];
 
