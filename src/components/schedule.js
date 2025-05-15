@@ -10,7 +10,7 @@ const scheduleItems = [
   {
     time: '2:10 PM to 02:40 PM',
     speaker: {
-      name: 'Hridayesh Sharm',
+      name: 'Hridayesh Sharma',
       image: 'assets/img/speakers/speaker-1.jpeg',
     },
     title: 'Web Performance Best Practices: Core Web Vital',
@@ -27,7 +27,7 @@ const scheduleItems = [
   {
     time: '02:55 PM to 03:10 PM',
     speaker: {
-      name: 'Break',
+      name: 'break',
       image: 'assets/img/speakers/profile.png',
     },
     title: 'Break',
@@ -35,7 +35,7 @@ const scheduleItems = [
   {
     time: '03:10 PM to 03:40 PM',
     speaker: {
-      name: 'Sagar Aivale',
+      name: 'Gaurav Kamathe',
       image: 'assets/img/speakers/speaker-2.jpg',
     },
     title: 'The future of AI is Cloud Native',
@@ -67,7 +67,7 @@ function scheduleItemHTML(item) {
           <img src="${item.speaker.image}" alt="${item.speaker.name}">
         </div>
         <h4>${item.title} ${
-    item.speaker.name !== 'Shweta Singh'
+    item.speaker.name !== 'break'
       ? `<span>by ${item.speaker.name}</span>`
       : ''
   }</h4>
