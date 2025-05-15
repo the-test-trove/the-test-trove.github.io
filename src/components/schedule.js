@@ -2,7 +2,7 @@ const scheduleItems = [
   {
     time: '02:00 PM to 02:10 PM',
     speaker: {
-      name: 'Tushar Sinha',
+      name: 'Mohit Gaur',
       image: 'assets/img/team/mohit.jpg',
     },
     title: 'Introduction and Welcome Note',
