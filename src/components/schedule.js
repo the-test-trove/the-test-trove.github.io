@@ -52,7 +52,7 @@ const scheduleItems = [
   {
     time: '03:30 PM to 03:45 PM',
     speaker: {
-      name: 'Siddharth Sharma',
+      name: 'Siddarth Sharma',
       image: 'assets/img/speakers/speaker-5.png',
     },
     title: 'Testcontainers: Real Environments for Consistent, Isolated, and Reliable Testing',

@@ -23,7 +23,7 @@ i'm always looking for challenges and eager to learn new AI techs!`,
     image: 'assets/img/speakers/speaker-4.png',
   },
   {
-    name: 'Siddharth Sharma',
+    name: 'Siddarth Sharma',
     jobTitle: 'Senior Software Engineer',
     description: `An explorer in the concrete jungle of tech, I’ve spent the last 6 years navigating its ever-evolving terrain—automating, optimizing, and innovating. Currently part of the Ansible Engineering team, I thrive on building scalable solutions and diving into the nuts and bolts of infrastructure automation. Off the clock, you’ll find me exploring the latest in emerging tech or catching a football match—always chasing the next big play, on or off the field.`,
     image: 'assets/img/speakers/speaker-5.png',
