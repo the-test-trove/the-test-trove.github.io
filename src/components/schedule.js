@@ -2,30 +2,39 @@ const scheduleItems = [
   {
     time: '02:00 PM to 02:10 PM',
     speaker: {
-      name: 'Mohit Gaur',
-      image: 'assets/img/team/mohit.jpg',
+      name: 'Tushar Sinha',
+      image: 'assets/img/team/tushar.jpg',
     },
     title: 'Introduction and Welcome Note',
   },
   {
-    time: '2:10 PM to 02:40 PM',
+    time: '2:10 PM to 02:30 PM',
     speaker: {
-      name: 'Hridayesh Sharma',
-      image: 'assets/img/speakers/speaker-1.jpeg',
+      name: 'Ashutosh Mallick',
+      image: 'assets/img/speakers/speaker-2.jpeg',
     },
-    title: 'Web Performance Best Practices: Core Web Vital',
+    title: 'Generating UI Test Plans from GitLab Merge Requests with MCP and Ollama',
   },
   {
-    time: '02:40 PM to 02:55 PM',
+    time: '02:30 PM to 03:00 PM',
     speaker: {
-      name: 'Panga Niharika',
-      image: 'assets/img/speakers/speaker-4.jpg',
+      name: 'Mahima Malhotra',
+      image: 'assets/img/speakers/speaker-3.png',
     },
     title:
-      'Quality Unlocked: The Power of Cross-Team Collaboration in Product Success',
+      'AI-Infused Automation Review: A Prompt-First Approach',
   },
   {
-    time: '02:55 PM to 03:10 PM',
+    time: '02:30 PM to 03:00 PM',
+    speaker: {
+      name: 'Nachiket Zadap',
+      image: 'assets/img/speakers/speaker-4.png',
+    },
+    title:
+      'AI-Infused Automation Review: A Prompt-First Approach',
+  },
+  {
+    time: '03:00 PM to 03:10 PM',
     speaker: {
       name: 'break',
       image: 'assets/img/speakers/profile.png',
@@ -33,26 +42,26 @@ const scheduleItems = [
     title: 'Break',
   },
   {
-    time: '03:10 PM to 03:40 PM',
+    time: '03:10 PM to 03:30 PM',
     speaker: {
-      name: 'Gaurav Kamathe',
-      image: 'assets/img/speakers/speaker-2.jpg',
+      name: 'Ayush Saini',
+      image: 'assets/img/speakers/speaker-1.png',
     },
-    title: 'The future of AI is Cloud Native',
+    title: 'Building Opportunities Through Open Source Contribution',
   },
   {
-    time: '03:40 PM to 03:55 PM',
+    time: '03:30 PM to 03:45 PM',
     speaker: {
-      name: 'Chetna Agrawal',
-      image: 'assets/img/speakers/speaker-3.jpeg',
+      name: 'Siddharth Sharma',
+      image: 'assets/img/speakers/speaker-5.png',
     },
-    title: 'First-Time Manager Unfiltered: Real Talk, Lessons Learned and Tips',
+    title: 'Testcontainers: Real Environments for Consistent, Isolated, and Reliable Testing',
   },
   {
-    time: '03:55 PM to 04:00 PM',
+    time: '03:45 PM to 04:00 PM',
     speaker: {
-      name: 'Tushar Sinha ',
-      image: 'assets/img/team/tushar.jpg',
+      name: 'Veerkumar Patil',
+      image: 'assets/img/team/veer.jpg',
     },
     title: 'Closing Note',
   },
@@ -82,7 +91,7 @@ export function setupSchedule(element) {
       <h2>Schedule</h2>
     </div>
 
-    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for May 22 2025, at 2:00 PM IST.</h3>
+    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for Aug 28 2025, at 2:00 PM IST.</h3>
 
     <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
       <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">
