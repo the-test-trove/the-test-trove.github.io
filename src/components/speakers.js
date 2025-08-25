@@ -1,30 +1,38 @@
 const speakers = [
+  
   {
-    name: 'Hridayesh Sharma',
+    name: 'Ashutosh Mallick',
+    jobTitle: 'Associate Software Quality Engineer',
+    description: `Two years at Red Hat as an Associate Software QE, wrangling open-source software and making sure it doesn't spontaneously combust. I build automation frameworks and obsess over product reliability. My goal? To become a performance and security guru, all while keeping the open-source party going strong.`,
+    image: 'assets/img/speakers/speaker-2.jpeg',
+  },
+  {
+    name: 'Mahima Malhotra',
+    jobTitle: 'Software Quality Engineer',
+    description: `Hi, I'm Mahima Malhotra, currently working as a Software Quality Engineer with the Datalayer Team. I bring over 6 years of experience in Manual, Automation, Performance, and API testing, with hands-on expertise in tools and technologies like Selenium (Java/C#), GraphQL, JMeter, Postman, and ARD. My journey spans diverse domains including Medical and Banking, where I've helped deliver high-quality, reliable solutions.
+Beyond testing, I've also stepped into roles as a Business Analyst and Project Coordinator, where I've enjoyed solving business problems and handling client communications.
+Lately, my curiosity has led me into the AI space, where I'm exploring AI Agents, MCP, and Evaluations. `,
+    image: 'assets/img/speakers/speaker-3.png',
+  },
+  {
+    name: 'Nachiket Zadap',
+    jobTitle: 'Software Quality Engineer',
+    description: `Hi, I'm Nachiket Zadap, currently working as a Software Quality Engineer with the Datalayer and Next-Gen UI Team. I have over 6 years of experience in Quality Assurance, during which I have worked across multiple domains and gained expertise in various testing tools and technologies, including Java, Python, Selenium, Cypress, Playwright, Rest Assured, and JMeter.
+In the era of AI, I decided not to be left behind—so I've been exploring AI Agents, MCP, and Evaluations. Basically, I'm teaching myself to speak robot before robots start teaching me!
+i'm always looking for challenges and eager to learn new AI techs!`,
+    image: 'assets/img/speakers/speaker-4.png',
+  },
+  {
+    name: 'Siddharth Sharma',
+    jobTitle: 'Senior Software Engineer',
+    description: `OpenShift ART (Automated Releasing Tooling) Previously @Teamnado - RedHat Subscription Management`,
+    image: 'assets/img/speakers/speaker-5.png',
+  },
+  {
+    name: 'Ayush Saini',
     jobTitle: 'Software Engineer',
-    description: `Hridayesh Sharma is a software engineer working in digital engineering. He has been working in frontend for over 6 years.`,
-    image: 'assets/img/speakers/speaker-1.jpeg',
-  },
-  {
-    name: 'Gaurav Kamathe',
-    jobTitle: 'Associate Manager ,Engineering',
-    description: `Seasoned Software Engineering professional.Primary interests are Security, Linux, Malware.Loves working on the command-line.Interested in low-level software and understanding how things work`,
-    image: 'assets/img/speakers/speaker-2.jpg',
-  },
-  {
-    name: 'Chetna Agrawal',
-    jobTitle: 'Associate Manager, Software Engineering',
-    description: ` Hi, I’m Chetna Agrawal, an Associate Engineering Manager at Red Hat,  leading the Ansible Networking content Team where we work on developing solutions for our partners to manage and automate their network usecase.  I’ve designed and automated a wide range of cloud storage and virtualization use cases, focusing on enterprise software solutions in past. In addition to my technical expertise, I’m also an artist at heart. I enjoy painting and am a passionate comic book reader, constantly finding inspiration at the intersection of creativity and technology.
- `,
-    image: 'assets/img/speakers/speaker-3.jpeg',
-  },
-  {
-    name: 'Panga Niharika',
-    jobTitle: 'Associate Software Maintenance Engineer',
-    description: `Panga Niharika – Associate Software Maintenance Engineer | Quality Tester | Community Contributor
-With 4+ years of experience in software Development, Quality engineering and maintenance, I currently work at Red Hat as a Associate Software Maintenance Engineer in the Sustaining Engineering team. My role involves ensuring high-quality software solutions and debugging complex issues.
-Beyond my technical expertise, I am deeply passionate about community engagement, knowledge sharing, and social impact. I have actively: Presented at events, sharing insights on tech contributions beyond coding.Volunteered for multiple initiatives, including sewing blankets for undeserved communities and distributing solar lamps.Supported Industrial Visits, guiding students on career paths in open source and emerging technologies.`,
-    image: 'assets/img/speakers/speaker-4.jpg',
+    description: `SDE  Red Hat | GSoC Mentor | LFX @CNCF-Kubestellar | AsyncAPI'24 Mentee and TSC Member`,
+    image: 'assets/img/speakers/speaker-1.png',
   },
 
 ];
