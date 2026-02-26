@@ -11,12 +11,12 @@ const teamMembers = [
     image: "assets/img/team/noopur.jpg",
     delay: "200"
   },
-  {
-    name: "Mohit Gaur",
-    title: "Software Quality Engineer",
-    image: "assets/img/team/mohit.jpg",
-    delay: "300"
-  },
+  // {
+  //   name: "Mohit Gaur",
+  //   title: "Software Quality Engineer",
+  //   image: "assets/img/team/mohit.jpg",
+  //   delay: "300"
+  // },
   {
     name: "Tushar Sinha",
     title: "Senior Software Quality Enginne",
