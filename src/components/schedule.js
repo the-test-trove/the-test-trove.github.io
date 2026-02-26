@@ -1,6 +1,6 @@
 const scheduleItems = [
   {
-    time: '02:00 PM to 02:10 PM',
+    time: '02:00 PM to 02:05 PM',
     speaker: {
       name: 'Tushar Sinha',
       image: 'assets/img/team/tushar.jpg',
@@ -8,33 +8,24 @@ const scheduleItems = [
     title: 'Introduction and Welcome Note',
   },
   {
-    time: '2:10 PM to 02:30 PM',
+    time: '2:05PM to 02:30 PM',
     speaker: {
-      name: 'Ashutosh Mallick',
-      image: 'assets/img/speakers/speaker-2.jpeg',
+      name: 'Abhishek Jha',
+      image: 'assets/img/speakers/speaker1.png',
     },
-    title: 'Generating UI Test Plans from GitLab Merge Requests with MCP and Ollama',
+    title: 'Watch before you choose, Why choosing the right metric matters',
   },
   {
-    time: '02:30 PM to 03:00 PM',
+    time: '02:30 PM to 02:55 PM',
     speaker: {
-      name: 'Mahima Malhotra',
-      image: 'assets/img/speakers/speaker-3.png',
-    },
-    title:
-      'AI-Infused Automation Review: A Prompt-First Approach',
-  },
-  {
-    time: '02:30 PM to 03:00 PM',
-    speaker: {
-      name: 'Nachiket Zadap',
-      image: 'assets/img/speakers/speaker-4.png',
+      name: 'Allen Yesudasan',
+      image: 'assets/img/speakers/speaker2.png',
     },
     title:
-      'AI-Infused Automation Review: A Prompt-First Approach',
+      'Unlocking Concurrency in Python with Async I/O and ASGI',
   },
   {
-    time: '03:00 PM to 03:10 PM',
+    time: '02:55 PM to 03:05 PM',
     speaker: {
       name: 'break',
       image: 'assets/img/speakers/profile.png',
@@ -42,23 +33,24 @@ const scheduleItems = [
     title: 'Break',
   },
   {
-    time: '03:10 PM to 03:30 PM',
+    time: '03:05 PM to 03:20 PM',
     speaker: {
-      name: 'Ayush Saini',
-      image: 'assets/img/speakers/speaker-1.png',
+      name: 'Aishwarya Urne',
+      image: 'assets/img/speakers/speaker3.png',
     },
-    title: 'Building Opportunities Through Open Source Contribution',
+    title: 'Shift Left, Ship Ready: Automating E2E Tests Directly from Jira with Playwright MCP',
   },
   {
-    time: '03:30 PM to 03:45 PM',
+    time: '03:20 PM to 03:50 PM',
     speaker: {
-      name: 'Siddarth Sharma',
-      image: 'assets/img/speakers/speaker-5.png',
+      name: 'Chetan Yeshi',
+      image: 'assets/img/speakers/speaker4.png',
     },
-    title: 'Testcontainers: Real Environments for Consistent, Isolated, and Reliable Testing',
+    title:
+      'QE leadership around AI evaluation',
   },
   {
-    time: '03:45 PM to 04:00 PM',
+    time: '03:50 PM to 04:00 PM',
     speaker: {
       name: 'Veerkumar Patil',
       image: 'assets/img/team/veer.jpg',
