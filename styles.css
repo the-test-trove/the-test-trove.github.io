@@ -1053,8 +1053,13 @@ section,
 
 .team .member img {
   border-radius: 50%;
+  width: 60%;
   max-width: 60%;
-  margin: 30px 0;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin: 30px auto;
 }
 
 .team .member .member-content {

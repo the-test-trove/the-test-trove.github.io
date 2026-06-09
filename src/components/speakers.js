@@ -1,34 +1,22 @@
 const speakers = [
-  
   {
-    name: 'Abhishek Jha',
-    jobTitle: 'Software Quality Engineer',
-    // description: `Two years at Red Hat as an Associate Software QE, wrangling open-source software and making sure it doesn't spontaneously combust. I build automation frameworks and obsess over product reliability. My goal? To become a performance and security guru, all while keeping the open-source party going strong.`,
+    name: 'Aman Vishwakarma',
+    jobTitle: 'Software Engineer -Intern',
+    description: `Hi, I'm Aman Vishwakarma, a Software Engineering Intern with the Performance & Scale team at Red Hat. My work focuses on large-scale log analysis, OpenShift Pipelines, and performance engineering. Outside of work, I enjoy exploring new technologies, building side projects, playing badminton, and following sci-fi and tech-driven stories.`,
     image: 'assets/img/speakers/speaker1.png',
   },
   {
-    name: 'Allen Yesudasan',
-    jobTitle: 'Associate Software Engineer',
-//     description: `Hi, I'm Mahima Malhotra, currently working as a Software Quality Engineer with the Datalayer Team. I bring over 6 years of experience in Manual, Automation, Performance, and API testing, with hands-on expertise in tools and technologies like Selenium (Java/C#), GraphQL, JMeter, Postman, and ARD. My journey spans diverse domains including Medical and Banking, where I've helped deliver high-quality, reliable solutions.
-// Beyond testing, I've also stepped into roles as a Business Analyst and Project Coordinator, where I've enjoyed solving business problems and handling client communications.
-// Lately, my curiosity has led me into the AI space, where I'm exploring AI Agents, MCP, and Evaluations. `,
-    image: 'assets/img/speakers/speaker2.png',
+    name: 'Krishna Magar',
+    jobTitle: 'Software Engineer - Intern',
+    description: `I am a final-year Engineering student at VIIT Pune and currently a Software Engineering Intern at Red Hat, working with the Performance and Scale Engineering team. My work has included evaluating the performance and cost efficiency of Intel and Graviton-based AWS RDS instances, and I am currently focused on kernel performance testing and benchmarking. My interests lie in Linux, performance engineering, cloud infrastructure, and systems optimization.`,
+    image: 'assets/img/speakers/speaker2.jpg',
   },
   {
-    name: 'Aishwarya Urne',
-    jobTitle: 'Senior oftware Quality Engineer',
-//     description: `Hi, I'm Nachiket Zadap, currently working as a Software Quality Engineer with the Datalayer and Next-Gen UI Team. I have over 6 years of experience in Quality Assurance, during which I have worked across multiple domains and gained expertise in various testing tools and technologies, including Java, Python, Selenium, Cypress, Playwright, Rest Assured, and JMeter.
-// In the era of AI, I decided not to be left behind—so I've been exploring AI Agents, MCP, and Evaluations. Basically, I'm teaching myself to speak robot before robots start teaching me!
-// i'm always looking for challenges and eager to learn new AI techs!`,
-    image: 'assets/img/speakers/speaker3.png',
+    name: 'Dhammadeep Meshram',
+    jobTitle: 'Associate Software Quality Engineer',
+    description: `I'm Dhammadeep Meshram—I work as an Associate Software Quality Engineer with the Customer Portal team at Red Hat. Day to day I validate customer-facing flows in the browser and build UI automation that our team can run again and again with confidence.`,
+    image: 'assets/img/speakers/speaker3.jpeg',
   },
-  {
-    name: 'Chetan Yeshi',
-    jobTitle: 'Manager, Quality Engineering',
-    // description: `An explorer in the concrete jungle of tech, I’ve spent the last 6 years navigating its ever-evolving terrain—automating, optimizing, and innovating. Currently part of the Ansible Engineering team, I thrive on building scalable solutions and diving into the nuts and bolts of infrastructure automation. Off the clock, you’ll find me exploring the latest in emerging tech or catching a football match—always chasing the next big play, on or off the field.`,
-    image: 'assets/img/speakers/speaker4.png',
-  },
-
 ];
 
 function speakerHTML(speaker) {
@@ -40,7 +28,7 @@ function speakerHTML(speaker) {
           <div class="member-content">
             <h4>${speaker.name}</h4>
             <span>${speaker.jobTitle}</span>
-             <!-- <p>${speaker.description}</p> -->
+            <p>${speaker.description}</p>
             <div class="social">
               <a href=""><i class="bi bi-twitter"></i></a>
               <a href=""><i class="bi bi-github"></i></a>

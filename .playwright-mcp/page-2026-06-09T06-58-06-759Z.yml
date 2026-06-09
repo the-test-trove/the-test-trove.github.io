@@ -1,0 +1,267 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "The Test Trove" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - heading "The Test Trove" [level=1] [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: "#hero"
+          - listitem [ref=e11]:
+            - link "About Us" [ref=e12] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=e13]:
+            - link "Speakers" [ref=e14] [cursor=pointer]:
+              - /url: "#speakers"
+          - listitem [ref=e15]:
+            - link "Schedule" [ref=e16] [cursor=pointer]:
+              - /url: "#schedule"
+          - listitem [ref=e17]:
+            - link "Team" [ref=e18] [cursor=pointer]:
+              - /url: "#team"
+          - listitem [ref=e19]:
+            - link "Contact" [ref=e20] [cursor=pointer]:
+              - /url: "#contact"
+        - text: 
+  - main [ref=e21]:
+    - generic [ref=e25]:
+      - heading "Welcome to The Test Trove Conference" [level=2] [ref=e26]
+      - paragraph [ref=e27]: Feb 2026, at 2:00 PM IST
+    - generic [ref=e28]:
+      - generic:
+        - generic: About Us
+        - heading "About Us" [level=2]: About Us
+        - paragraph: Create Contribute Collaborate
+      - generic [ref=e30]:
+        - generic:
+          - heading "The Test Trove and The Community Relations Initiative" [level=3]
+          - paragraph: We started with an objective to increase collaboration and share Quality Engineering/ Testing related knowledge among different QE groups. The idea is to have discussions on testing related topics and be able to share our knowledge store with the outside QE community. We are building a community! Currently, we are not just limited to Quality Engineering but open to other topics including
+          - list:
+            - listitem:
+              - generic: 
+              - text: Development
+            - listitem:
+              - generic: 
+              - text: DevOps
+            - listitem:
+              - generic: 
+              - text: Collaboration Stories
+            - listitem:
+              - generic: 
+              - text: Leadership
+          - link "Read More ":
+            - /url: https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove
+            - generic: Read More
+            - generic: 
+    - generic [ref=e31]:
+      - generic:
+        - generic: Speakers
+        - heading "Speakers" [level=2]
+      - generic [ref=e33]:
+        - generic:
+          - generic:
+            - generic:
+              - heading "Aman Vishwakarma" [level=4]
+              - generic: Software Engineer -Intern
+              - paragraph: Hi, I'm Aman Vishwakarma, a Software Engineering Intern with the Performance & Scale team at Red Hat. My work focuses on large-scale log analysis, OpenShift Pipelines, and performance engineering. Outside of work, I enjoy exploring new technologies, building side projects, playing badminton, and following sci-fi and tech-driven stories.
+              - generic:
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+        - generic:
+          - generic:
+            - generic:
+              - heading "Krishna Magar" [level=4]
+              - generic: Software Engineer - Intern
+              - paragraph: I am a final-year Engineering student at VIIT Pune and currently a Software Engineering Intern at Red Hat, working with the Performance and Scale Engineering team. My work has included evaluating the performance and cost efficiency of Intel and Graviton-based AWS RDS instances, and I am currently focused on kernel performance testing and benchmarking. My interests lie in Linux, performance engineering, cloud infrastructure, and systems optimization.
+              - generic:
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+        - generic:
+          - generic:
+            - generic:
+              - heading "Dhammadeep Meshram" [level=4]
+              - generic: Associate Software Quality Engineer
+              - paragraph: Hi, I'm Dhammadeep Meshram, currently working as an Associate Software Quality Engineer. I have experience in Quality Assurance across multiple domains, with expertise in various testing tools and technologies, including Java, Python, Selenium, Cypress, Playwright, Rest Assured, and JMeter. In the era of AI, I decided not to be left behind—so I've been exploring AI Agents, MCP, and Evaluations. Basically, I'm teaching myself to speak robot before robots start teaching me! I'm always looking for challenges and eager to learn new AI techs!
+              - generic:
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+                - link "":
+                  - /url: ""
+                  - generic: 
+    - generic [ref=e34]:
+      - generic:
+        - generic: Schedule
+        - heading "Schedule" [level=2]
+      - heading "We are back again with another instance of T3Con scheduled for Aug 28 2025, at 2:00 PM IST." [level=3] [ref=e35]
+      - generic:
+        - tabpanel:
+          - generic:
+            - generic:
+              - time: 02:00 PM to 02:05 PM
+            - generic:
+              - generic:
+                - img "Tushar Sinha"
+              - heading "Introduction and Welcome Note by Tushar Sinha" [level=4]
+          - generic:
+            - generic:
+              - time: 2:05PM to 02:30 PM
+            - generic:
+              - generic:
+                - img "Abhishek Jha"
+              - heading "Watch before you choose, Why choosing the right metric matters by Abhishek Jha" [level=4]
+          - generic:
+            - generic:
+              - time: 02:30 PM to 02:55 PM
+            - generic:
+              - generic:
+                - img "Allen Yesudasan"
+              - heading "Unlocking Concurrency in Python with Async I/O and ASGI by Allen Yesudasan" [level=4]
+          - generic:
+            - generic:
+              - time: 02:55 PM to 03:05 PM
+            - generic:
+              - generic:
+                - img "break"
+              - heading "Break" [level=4]
+          - generic:
+            - generic:
+              - time: 03:05 PM to 03:20 PM
+            - generic:
+              - generic:
+                - img "Aishwarya Urne"
+              - 'heading "Shift Left, Ship Ready: Automating E2E Tests Directly from Jira with Playwright MCP by Aishwarya Urne" [level=4]'
+          - generic:
+            - generic:
+              - time: 03:20 PM to 03:50 PM
+            - generic:
+              - generic:
+                - img "Chetan Yeshi"
+              - heading "QE leadership around AI evaluation by Chetan Yeshi" [level=4]
+          - generic:
+            - generic:
+              - time: 03:50 PM to 04:00 PM
+            - generic:
+              - generic:
+                - img "Veerkumar Patil"
+              - heading "Closing Note by Veerkumar Patil" [level=4]
+    - generic [ref=e36]:
+      - generic:
+        - generic: Team
+        - heading "Team" [level=2]
+        - paragraph: If you have any suggestion about how we can improve, please let us know
+      - generic [ref=e38]:
+        - generic:
+          - generic:
+            - img "Swapnil Jadhav"
+            - generic:
+              - heading "Swapnil Jadhav" [level=4]
+              - generic: Principal Software Quality Engineer
+        - generic:
+          - generic:
+            - img "Noopur Math"
+            - generic:
+              - heading "Noopur Math" [level=4]
+              - generic: Principal Software Quality Engineer
+        - generic:
+          - generic:
+            - img "Tushar Sinha"
+            - generic:
+              - heading "Tushar Sinha" [level=4]
+              - generic: Senior Software Quality Enginne
+        - generic:
+          - generic:
+            - img "Veerkumar Patil"
+            - generic:
+              - heading "Veerkumar Patil" [level=4]
+              - generic: Principal Software Quality Engineer
+    - generic [ref=e39]:
+      - generic:
+        - generic: Contact
+        - heading "Contact" [level=2]
+        - paragraph: Have questions? Reach out to us – we're here to make your experience unforgettable!
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link "":
+                - /url: https://github.com/the-test-trove
+                - generic: 
+              - heading "The Test Trove" [level=3]
+          - generic:
+            - generic:
+              - link "":
+                - /url: mailto:t3-organizers@redhat.com
+                - generic: 
+              - heading "Email Us" [level=3]
+  - contentinfo [ref=e40]:
+    - generic [ref=e42]:
+      - generic [ref=e44]:
+        - link "The Test Trove" [ref=e45] [cursor=pointer]:
+          - /url: index.html
+        - generic [ref=e46]:
+          - link "" [ref=e47] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e48]: 
+          - link "" [ref=e49] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e50]: 
+          - link "" [ref=e51] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e52]: 
+          - link "" [ref=e53] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e54]: 
+      - generic [ref=e55]:
+        - heading "Useful Links" [level=4] [ref=e56]
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "Source Page" [ref=e59] [cursor=pointer]:
+              - /url: https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove
+          - listitem [ref=e60]:
+            - link "Q1 2024" [ref=e61] [cursor=pointer]:
+              - /url: https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q1_feb__29th_2024
+          - listitem [ref=e62]:
+            - link "Q4 2023" [ref=e63] [cursor=pointer]:
+              - /url: https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q3_nov_23_2023
+          - listitem [ref=e64]:
+            - link "Q3 2023" [ref=e65] [cursor=pointer]:
+              - /url: https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q3_august_24_2023
+          - listitem [ref=e66]:
+            - link "Q2 2023" [ref=e67] [cursor=pointer]:
+              - /url: https://source.redhat.com/departments/products_and_global_engineering/xe/the_test_trove/the_test_trove_conferencet3con_q2_may_25_2023
+    - paragraph [ref=e69]:
+      - text: © Copyright
+      - strong [ref=e70]: The Test Trove
+      - text: All Rights Reserved
+  - link "" [ref=e71] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e72]: 
