@@ -10,50 +10,33 @@ const scheduleItems = [
   {
     time: '2:05PM to 02:30 PM',
     speaker: {
-      name: 'Abhishek Jha',
+      name: 'Krishna Magar',
+      image: 'assets/img/speakers/speaker2.jpg',
+    },
+    title: 'The End of x86? Benchmarking Graviton vs Intel for Cloud Databases',
+  },
+  {
+    time: '02:30 PM to 02:45 PM',
+    speaker: {
+      name: 'Dhammadeep Meshram',
+      image: 'assets/img/speakers/speaker3.jpeg',
+    },
+    title:
+      'Guardrailed AI-Assisted E2E Automation',
+  },
+  {
+    time: '02:45 PM to 03:10 PM',
+    speaker: {
+      name: 'Aman Vishwakarma',
       image: 'assets/img/speakers/speaker1.png',
     },
-    title: 'Watch before you choose, Why choosing the right metric matters',
+    title: ' Scaling Log Analysis with LogAn: From Raw Logs to Actionable Insights',
   },
   {
-    time: '02:30 PM to 02:55 PM',
-    speaker: {
-      name: 'Allen Yesudasan',
-      image: 'assets/img/speakers/speaker2.png',
-    },
-    title:
-      'Unlocking Concurrency in Python with Async I/O and ASGI',
-  },
-  {
-    time: '02:55 PM to 03:05 PM',
-    speaker: {
-      name: 'break',
-      image: 'assets/img/speakers/profile.png',
-    },
-    title: 'Break',
-  },
-  {
-    time: '03:05 PM to 03:20 PM',
-    speaker: {
-      name: 'Aishwarya Urne',
-      image: 'assets/img/speakers/speaker3.png',
-    },
-    title: 'Shift Left, Ship Ready: Automating E2E Tests Directly from Jira with Playwright MCP',
-  },
-  {
-    time: '03:20 PM to 03:50 PM',
-    speaker: {
-      name: 'Chetan Yeshi',
-      image: 'assets/img/speakers/speaker4.png',
-    },
-    title:
-      'QE leadership around AI evaluation',
-  },
-  {
-    time: '03:50 PM to 04:00 PM',
+    time: '03:10 PM to 03:15 PM',
     speaker: {
       name: 'Veerkumar Patil',
-      image: 'assets/img/team/veer.jpg',
+      image: 'assets/img/team/noopur.jpg',
     },
     title: 'Closing Note',
   },
@@ -83,7 +66,7 @@ export function setupSchedule(element) {
       <h2>Schedule</h2>
     </div>
 
-    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for Aug 28 2025, at 2:00 PM IST.</h3>
+    <h3 class="sub-heading">We are back again with another instance of T3Con scheduled for 11th June 2026, at 2:00 PM IST.</h3>
 
     <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
       <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">
