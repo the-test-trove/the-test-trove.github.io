@@ -35,7 +35,7 @@ const scheduleItems = [
   {
     time: '03:10 PM to 03:15 PM',
     speaker: {
-      name: 'Veerkumar Patil',
+      name: 'Noopur Math',
       image: 'assets/img/team/noopur.jpg',
     },
     title: 'Closing Note',
